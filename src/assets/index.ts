@@ -1,7 +1,7 @@
 import bigData from "../assets/bigData.svg";
 import brand from "../assets/brand.png";
 import character from "../assets/character.svg";
-import Close from "../assets/Close.svg";
+import Close from "../assets/Close.png";
 import courage from "../assets/courage.svg";
 import cover from "../assets/cover.png";
 import curiosity from "../assets/curiosity.svg";
@@ -12,7 +12,7 @@ import Facebook from "../assets/Facebook.png";
 import fashion from "../assets/fashion.png";
 import films from "../assets/films.svg";
 import fudlink from "../assets/fudlink.png";
-import Hamburger from "../assets/Hamburger.svg";
+import Hamburger from "../assets/Hamburger.png";
 import Instagram from "../assets/Instagram.png";
 import leading from "../assets/leading.jpg";
 import LinkedIn from "../assets/LinkedIn.png";
