@@ -1,9 +1,9 @@
+import Navigation from "./CustomComponents/Navigation";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Good to meet you</h1>
-      </div>
+      <Navigation />
     </>
   );
 }
