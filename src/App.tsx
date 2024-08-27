@@ -1,9 +1,8 @@
-import Navigation from "./CustomComponents/Navigation";
-
+import Hero from "./CustomComponents/Hero";
 function App() {
   return (
     <>
-      <Navigation />
+      <Hero />
     </>
   );
 }
