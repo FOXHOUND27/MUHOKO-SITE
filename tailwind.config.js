@@ -73,7 +73,7 @@ module.exports = {
       },
     },
     backgroundImage: (theme) => ({
-      "custom-gradient": "linear-gradient(90deg, #242424 0%, #383938 100%)",
+      "muhoko-gradient": "linear-gradient(90deg, #242424 0%, #383938 100%)",
     }),
   },
   plugins: [require("tailwindcss-animate")],
