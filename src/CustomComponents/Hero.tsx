@@ -4,11 +4,13 @@ function Hero() {
   return (
     <section className="md:h-[73vh] h-[60vh]">
       {/* Text ontainer and styles */}
-      <div className="md:absolute static top-48 left-28 pt-32 md:pt-0 pl-14">
+      <div className="md:absolute static top-48 left-20 pt-32 md:pt-0 pl-14 bg-transparent">
+        {/* Title text */}
         <h1 className="md:text-4xl text-2xl font-semibold md:text-left">
           Transforming Visions into Reality <br /> with Innovative Technology
         </h1>
-        <p className="md:text-xl font-medium">
+        {/* Subtitle text */}
+        <p className="md:text-xl text-left font-medium">
           Partnering to Achieve Your Goals with <br /> Safety, Sustainability,
           and Excellence
         </p>

@@ -25,9 +25,14 @@ import MuhokoTechnology from "../assets/MuhokoTechnology.svg";
 import NTTS from "../assets/NTTS.png";
 import NUST from "../assets/NUST.png";
 import robot from "../assets/robot.svg";
-import waka from "../assets/waka.png";
+import waka from "../assets/WakaMoo.jpeg";
 import websites from "../assets/websites.svg";
 import YouTube from "../assets/YouTube.png";
+import OTESA from "../assets/OTESA.png";
+import gerApp from "../assets/GerApp.png";
+import iPrint from "../assets/Iprint.png";
+import intraHealth from "../assets/intraHealth.png";
+import ngandu from "../assets/NganduEvents.png";
 
 export {
   bigData,
@@ -60,4 +65,9 @@ export {
   waka,
   websites,
   YouTube,
+  OTESA,
+  gerApp,
+  iPrint,
+  intraHealth,
+  ngandu,
 };
