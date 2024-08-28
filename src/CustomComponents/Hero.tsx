@@ -2,7 +2,7 @@ import Spline from "@splinetool/react-spline";
 
 function Hero() {
   return (
-    <section className="md:h-[73vh] h-[60vh]">
+    <section className="md:h-[73vh] h-[25vh]">
       {/* Text ontainer and styles */}
       <div className="md:absolute static top-48 left-20 pt-32 md:pt-0 pl-14 bg-transparent">
         {/* Title text */}
