@@ -33,7 +33,7 @@ function Navigation() {
         />
         {/* Navigation Items */}
         <ul
-          className={`md:flex md:items-center md:text-lg text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-[#242424] md:bg-transparent md:z-auto z-[-1] left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:text-lg text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-[#242424] md:bg-transparent md:z-10 z-40 left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
             toggle ? "top-20" : "top-[-490px]"
           }`}
         >
