@@ -13,11 +13,11 @@ body {
   border-bottom-left-radius: 200px;
 }
 
-.partner-radius-sm {
-  -webkit-border-top-right-radius: 50px;
-  -webkit-border-bottom-left-radius: 50px;
-  -moz-border-radius-topright: 50px;
-  -moz-border-radius-bottomleft: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+.solutions-radius {
+  -webkit-border-top-left-radius: 300px;
+  -webkit-border-bottom-right-radius: 300px;
+  -moz-border-radius-topleft: 300px;
+  -moz-border-radius-bottomright: 300px;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
 }
