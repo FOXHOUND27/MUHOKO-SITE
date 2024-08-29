@@ -12,3 +12,12 @@ body {
   border-top-right-radius: 200px;
   border-bottom-left-radius: 200px;
 }
+
+.partner-radius-sm {
+  -webkit-border-top-right-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topright: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}

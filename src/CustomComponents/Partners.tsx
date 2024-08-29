@@ -1,15 +1,48 @@
 import "../CSS/Styles.css";
+import {
+  fudlink,
+  mekenficent,
+  NUST,
+  fashion,
+  OTESA,
+  NTTS,
+  intraHealth,
+  gerApp,
+} from "../assets/index";
 
 function Partners() {
   return (
     <section className="container">
-      <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] bg-[#e5e5e5] partner-radius mx-auto my-20 shadow-xl">
+      <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] hidden md:block bg-[#e5e5e5] partner-radius mx-auto my-20 shadow-xl">
         {/* Div containing titlt and subtitle text */}
-        <div className="md:text-center py-6 md:px-0 px-4">
+        <div className="md:text-center text-center py-6 md:px-0">
           <h1 className="md:text-2xl text-xs font-semibold">
             Our Partners and Collaborations
           </h1>
-          <p className="md:text-lg text-xs md:w-auto w-[80%] text-[#716E6F] font-medium">
+          <p className="md:text-lg text-xs md:w-auto w-[80%] text-[#716E6F] font-medium md:mx-0 mx-auto">
+            Companies We Currently Work With and Have Partnered With in the Past{" "}
+          </p>
+        </div>
+
+        {/* Div containing brands */}
+        <div className="px-10">
+          {/* row 1 container */}
+          <div className="flex">
+            <div className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center">
+              <img src={fudlink} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile partners section */}
+      <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto my-20 shadow-xl relative top-20">
+        {/* Div containing titlt and subtitle text */}
+        <div className="md:text-center text-center py-6 md:px-0">
+          <h1 className="md:text-2xl text-xs font-semibold">
+            Our Partners and Collaborations
+          </h1>
+          <p className="md:text-lg text-xs md:w-auto w-[80%] text-[#716E6F] font-medium md:mx-0 mx-auto">
             Companies We Currently Work With and Have Partnered With in the Past{" "}
           </p>
         </div>
