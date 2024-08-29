@@ -37,7 +37,7 @@ function Navigation() {
             toggle ? "top-20" : "top-[-490px]"
           }`}
         >
-          <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0  ml-3 my-1">
+          <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0  ml-3 my-1 ">
             <a href="#">Home</a>
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
