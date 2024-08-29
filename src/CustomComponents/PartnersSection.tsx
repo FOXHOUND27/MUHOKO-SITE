@@ -33,7 +33,7 @@ function Partners() {
         {/* Div containing titlt and subtitle text */}
         <div
           data-aos="zoom-in"
-          className="md:text-center text-center py-6 md:px-0"
+          className="md:text-center text-center py-6 md:px-0 relative z-[2]"
         >
           <h1 className="md:text-2xl text-xs font-semibold">
             Our Partners and Collaborations
