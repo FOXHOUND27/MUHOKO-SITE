@@ -76,5 +76,5 @@ module.exports = {
       "muhoko-gradient": "linear-gradient(90deg, #242424 0%, #383938 100%)",
     }),
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar")],
 };

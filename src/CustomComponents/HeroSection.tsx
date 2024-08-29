@@ -1,7 +1,7 @@
 import Spline from "@splinetool/react-spline";
 import { cover } from "@/assets";
 
-function Hero() {
+function HeroSection() {
   return (
     <section className="md:h-[73vh] h-[25vh]">
       {/* Text ontainer and styles */}
@@ -30,4 +30,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default HeroSection;

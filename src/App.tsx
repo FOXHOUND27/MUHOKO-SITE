@@ -1,11 +1,11 @@
-import Hero from "./CustomComponents/Hero";
+import HeroSection from "./CustomComponents/HeroSection";
 import Navigation from "./CustomComponents/Navigation";
-import Partners from "./CustomComponents/Partners";
+import Partners from "./CustomComponents/PartnersSection";
 function App() {
   return (
     <>
       <Navigation />
-      <Hero />
+      <HeroSection />
       <Partners />
     </>
   );
