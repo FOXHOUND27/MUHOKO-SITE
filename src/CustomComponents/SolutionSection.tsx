@@ -55,7 +55,10 @@ function SolutionSection() {
           {/* Row 1 Cards */}
           <div className="flex space-x-10">
             {/* Card 1 */}
-            <div className="w-[400px] h-[200px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5">
+            <div
+              data-aos="fade-up"
+              className="w-[400px] h-[200px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+            >
               <img src={websites} className="w-[52px]" alt="websites icon" />
 
               <h1 className="text-white text-lg my-1">Web Development</h1>
@@ -66,7 +69,10 @@ function SolutionSection() {
               </p>
             </div>
             {/* Card 2 */}
-            <div className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5">
+            <div
+              data-aos="fade-up"
+              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+            >
               <img
                 src={development}
                 className="w-[52px]"
@@ -86,7 +92,10 @@ function SolutionSection() {
 
           {/* Row 2 Cards */}
           <div className="flex space-x-10">
-            <div className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5">
+            <div
+              data-aos="fade-up"
+              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+            >
               {" "}
               <img src={gamDev} className="w-[52px]" alt="game dev icon" />
               <h1 className="text-white text-lg my-1">Game Development</h1>
@@ -96,7 +105,10 @@ function SolutionSection() {
                 creation to game mechanics and more.
               </p>
             </div>
-            <div className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5">
+            <div
+              data-aos="fade-up"
+              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+            >
               {" "}
               <img
                 src={character}
@@ -110,6 +122,83 @@ function SolutionSection() {
                 performance across various platforms.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile version of Solutions Section */}
+      <div className=" w-full md:w-[85%] py-6 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-xl relative ">
+        {/* Mobile Solutions text and image */}
+        <div className="relative">
+          <img
+            src={mainCharacter}
+            className="absolute w-52 bottom-[-100] right-1 top-[-180px]  left-[50%] -translate-x-1/2"
+            alt="main character"
+          />
+
+          {/* Solutions Text */}
+          <div className="flex flex-col items-center mt-20 py-3">
+            <h1 className="text-2xl font-semibold">Solutions</h1>
+            <p className="w-[80%] text-center text-xs font-medium">
+              We deliver cutting-edge custom software development, immersive
+              game development, dynamic web development, and a full spectrum of
+              IT solutions and services tailored to meet the unique needs of our
+              clients.{" "}
+            </p>
+          </div>
+        </div>
+
+        {/* Mobile Solutions Card Div */}
+        <div className="flex flex-col space-y-4 items-center rounded-md py-4">
+          <div className="w-[230px] h-[110px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-2">
+            {" "}
+            <img src={websites} className="w-[32px]" alt="character dev icon" />
+            <h1 className="text-white text-[10px] my-1">Web Development</h1>
+            <p className="text-white text-center text-[6px]">
+              We specialize in creating custom websites that are visually
+              appealing, highly functional, and optimized for performance.
+            </p>
+          </div>
+          {/* Card 2 */}
+          <div className="w-[230px] h-[110px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-2">
+            {" "}
+            <img
+              src={development}
+              className="w-[32px]"
+              alt="character dev icon"
+            />
+            <h1 className="text-white text-[10px] my-1">
+              Software & App Development
+            </h1>
+            <p className="text-white text-center text-[6px]">
+              We specialize in creating custom software applications and mobile
+              apps that are intuitive, scalable, and secure
+            </p>
+          </div>
+          {/* Card 3 */}
+          <div className="w-[230px] h-[110px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-2">
+            {" "}
+            <img src={gamDev} className="w-[32px]" alt="character dev icon" />
+            <h1 className="text-white text-[10px] my-1">Game Development</h1>
+            <p className="text-white text-center text-[6px]">
+              We specialize in creating high-quality video games that captivate
+              players of all ages. From concept design and level creation to
+              game mechanics and post-production,
+            </p>
+          </div>
+          {/* Card 4 */}
+          <div className="w-[230px] h-[110px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-2">
+            {" "}
+            <img
+              src={character}
+              className="w-[32px]"
+              alt="character dev icon"
+            />
+            <h1 className="text-white text-[10px] my-1">Character Design</h1>
+            <p className="text-white text-center text-[6px]">
+              We specialize in creating custom websites that are visually
+              appealing, highly functional, and optimized for performance.
+            </p>
           </div>
         </div>
       </div>

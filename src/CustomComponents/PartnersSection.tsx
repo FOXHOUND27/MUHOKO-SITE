@@ -48,38 +48,62 @@ function Partners() {
           {/* row 1 container */}
 
           <div className="flex space-x-4">
-            <div className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={fudlink} alt="fudlink" />
             </div>
 
-            <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2"
+            >
               <img src={mekenficent} alt="mekenficent" />
             </div>
 
-            <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={NUST} alt="NUST" />
             </div>
 
-            <div className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={fashion} className="w-14" alt="Fashion" />
             </div>
           </div>
 
           {/* Row 2 */}
           <div className="flex space-x-4">
-            <div className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={OTESA} className="w-28 h-20" alt="Otesa" />
             </div>
 
-            <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={NTTS} className="w-16" alt="NTTS" />
             </div>
 
-            <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={intraHealth} className="w-32" alt="NUST" />
             </div>
 
-            <div className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center">
+            <div
+              data-aos="zoom-out"
+              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+            >
               <img src={gerApp} className="w-44" alt="gerApp" />
             </div>
           </div>
