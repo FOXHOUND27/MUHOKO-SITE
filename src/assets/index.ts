@@ -33,6 +33,7 @@ import gerApp from "../assets/GerApp.png";
 import iPrint from "../assets/Iprint.png";
 import intraHealth from "../assets/intraHealth.png";
 import ngandu from "../assets/NganduEvents.png";
+import gamDev from "../assets/gameDev.svg";
 
 export {
   bigData,
@@ -70,4 +71,5 @@ export {
   iPrint,
   intraHealth,
   ngandu,
+  gamDev,
 };

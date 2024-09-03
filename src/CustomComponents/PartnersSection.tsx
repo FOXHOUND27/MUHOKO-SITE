@@ -30,7 +30,7 @@ function Partners() {
   return (
     <section className="container">
       <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] hidden md:block bg-[#e5e5e5] partner-radius mx-auto my-20 shadow-2xl">
-        {/* Div containing titlt and subtitle text */}
+        {/* Div containing title and subtitle text */}
         <div
           data-aos="zoom-in"
           className="md:text-center text-center py-6 md:px-0 relative z-[2]"
@@ -43,7 +43,7 @@ function Partners() {
           </p>
         </div>
 
-        {/* Div containing brands */}
+        {/*Desktop  Div containing brands */}
         <div className="flex items-center flex-col space-y-8">
           {/* row 1 container */}
 
@@ -98,8 +98,9 @@ function Partners() {
           </p>
         </div>
         {/* Div for brands */}
+
         <div className="flex justify-center">
-          {/* Column 1 */}
+          {/*Brands Mobile Column */}
           <div className="flex space-y-4 flex-col">
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
               <img src={fudlink} className="w-20" alt="fudlink" />
@@ -134,6 +135,7 @@ function Partners() {
             </div>
           </div>
         </div>
+        {/* End of mobile brands column */}
       </div>
     </section>
   );
