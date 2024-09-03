@@ -32,7 +32,7 @@ function Partners() {
       <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] hidden md:block bg-[#e5e5e5] partner-radius mx-auto my-20 shadow-2xl">
         {/* Div containing title and subtitle text */}
         <div
-          data-aos="zoom-in"
+          data-aos="zoom-out"
           className="md:text-center text-center py-6 md:px-0 relative z-[2]"
         >
           <h1 className="md:text-2xl text-xs font-semibold">
