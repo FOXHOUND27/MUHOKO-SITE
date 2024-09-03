@@ -25,7 +25,7 @@ function SolutionSection() {
   }, []);
 
   return (
-    <section className="my-52 flex justify-center items-center container flex-col">
+    <section className="mt-52 mb-14 flex justify-center items-center container flex-col">
       <div className="bg-[#e5e5e5] md:w-[83%] md:h-[920px] hidden md:block  solutions-radius shadow-2xl relative">
         {/* Div for Solutionts text and Image */}
         <div className="">
