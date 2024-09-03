@@ -33,7 +33,7 @@ function InfoCardSection() {
         {/* img/video div */}
         <div className="relative">
           <div className="w-[500px] h-[400px] flex justify-center items-center">
-            <div className="z-10">
+            <div data-aos="zoom-out" className="z-10">
               <iframe
                 width="450"
                 height="315"
@@ -46,7 +46,10 @@ function InfoCardSection() {
               ></iframe>
             </div>
             {/* Square behind video */}
-            <div className=" w-[450px] h-[310px] shadow-2xl bg-muhoko-gradient absolute z-[5] top-[70px] right-[50px] rounded-xl"></div>
+            <div
+              data-aos="zoom-out"
+              className=" w-[450px] h-[310px] shadow-2xl bg-muhoko-gradient absolute z-[5] top-[70px] right-[50px] rounded-xl"
+            ></div>
           </div>
         </div>
       </div>
