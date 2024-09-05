@@ -31,6 +31,7 @@ function SolutionSection() {
         <div className="">
           {/* Character Image */}
           <img
+            data-aos="zoom-out"
             src={mainCharacter}
             className="absolute top-[-150px] left-20"
             alt="Main chatacter"
@@ -38,7 +39,7 @@ function SolutionSection() {
 
           {/* Text for the solutions section */}
           <div
-            data-aos="zoom-in"
+            data-aos="zoom-out"
             className="flex flex-col items-center mt-20 absolute right-16"
           >
             <h1 className="text-5xl font-semibold">Solutions</h1>
