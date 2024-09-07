@@ -23,10 +23,10 @@ body {
 }
 
 .technology-radius {
-  -webkit-border-top-left-radius: 130px;
-  -webkit-border-bottom-right-radius: 130px;
-  -moz-border-radius-topleft: 130px;
-  -moz-border-radius-bottomright: 130px;
-  border-top-left-radius: 130px;
-  border-bottom-right-radius: 130px;
+  -webkit-border-top-left-radius: 150px;
+  -webkit-border-bottom-right-radius: 150px;
+  -moz-border-radius-topleft: 150px;
+  -moz-border-radius-bottomright: 150px;
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
 }
