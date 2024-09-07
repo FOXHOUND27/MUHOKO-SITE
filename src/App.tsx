@@ -4,6 +4,7 @@ import Navigation from "./CustomComponents/Navigation";
 import Partners from "./CustomComponents/PartnersSection";
 import SolutionSection from "./CustomComponents/SolutionSection";
 import TechnologySection from "./CustomComponents/TechnologySection";
+import TestimonialSection from "./CustomComponents/TestimonialSection";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SolutionSection />
       <InfoCardSection />
       <TechnologySection />
+      <TestimonialSection />
     </>
   );
 }
