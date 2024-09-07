@@ -1,25 +1,9 @@
-import {
-  Navigation,
-  HeroSection,
-  Partners,
-  SolutionSection,
-  InfoCardSection,
-  TechnologySection,
-  TestimonialSection,
-  FooterSection,
-} from "./CustomComponents/index";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <HeroSection />
-      <Partners />
-      <SolutionSection />
-      <InfoCardSection />
-      <TechnologySection />
-      <TestimonialSection />
-      <FooterSection />
+      <Home />
     </>
   );
 }
