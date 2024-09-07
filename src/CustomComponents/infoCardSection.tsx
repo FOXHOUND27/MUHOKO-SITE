@@ -63,10 +63,10 @@ function InfoCardSection() {
       {/* Mobile version of section */}
       <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative ">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-xl w-[250px] text-center font-semibold">
+          <h1 className="text-xl w-[300px] text-center font-semibold">
             Leading the Future of Technology in Africa
           </h1>
-          <p className="w-[90%] text-center text-sm font-medium my-2 mx-auto">
+          <p className="w-[80%] text-center text-sm font-medium my-2 mx-auto">
             Muhoko Innovation Studio is a pioneering technology company based in
             Namibia, dedicated to delivering cutting-edge AI and futuristic
             technology solutions. With a mission to provide quality technology
