@@ -21,3 +21,12 @@ body {
   border-top-left-radius: 300px;
   border-bottom-right-radius: 300px;
 }
+
+.technology-radius {
+  -webkit-border-top-left-radius: 130px;
+  -webkit-border-bottom-right-radius: 130px;
+  -moz-border-radius-topleft: 130px;
+  -moz-border-radius-bottomright: 130px;
+  border-top-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+}

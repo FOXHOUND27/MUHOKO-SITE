@@ -3,6 +3,7 @@ import InfoCardSection from "./CustomComponents/infoCardSection";
 import Navigation from "./CustomComponents/Navigation";
 import Partners from "./CustomComponents/PartnersSection";
 import SolutionSection from "./CustomComponents/SolutionSection";
+import TechnologySection from "./CustomComponents/TechnologySection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Partners />
       <SolutionSection />
       <InfoCardSection />
+      <TechnologySection />
     </>
   );
 }
