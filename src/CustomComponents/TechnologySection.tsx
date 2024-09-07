@@ -73,7 +73,10 @@ function TechnologySection() {
           </div>
 
           {/* Iconcloud Div  */}
-          <div className="relative flex h-full w-full max-w-[32rem] items-center justify-center pb-16 pt-5 pl-20 overflow-hidden  ">
+          <div
+            data-aos="zoom-out"
+            className="relative flex h-full w-full max-w-[32rem] items-center justify-center pb-16 pt-5 pl-20 overflow-hidden  "
+          >
             <IconCloud iconSlugs={slugs} />
           </div>
         </div>

@@ -74,8 +74,8 @@ export function TestimonialSection() {
               ))}
             </CarouselContent>
             {/* Carousel Arrows */}
-            <CarouselPrevious className=" text-white p-2 w-10 bg-muhoko-gradient" />
-            <CarouselNext className=" text-white w-10 p-2 bg-muhoko-gradient" />
+            <CarouselPrevious className=" text-white p-2 w-10 bg-muhoko-gradient hover:text-[#ED2330]" />
+            <CarouselNext className=" text-white w-10 p-2 bg-muhoko-gradient hover:text-[#ED2330]" />
           </Carousel>
         </div>
       </div>
