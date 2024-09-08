@@ -1,10 +1,15 @@
-import { Navigation, AboutHero } from "./CustomComponents";
+import {
+  Navigation,
+  AboutHeroSection,
+  AboutDescriptionSection,
+} from "./CustomComponents";
 
 function App() {
   return (
     <>
       <Navigation />
-      <AboutHero />
+      <AboutHeroSection />
+      <AboutDescriptionSection />
     </>
   );
 }

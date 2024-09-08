@@ -1,6 +1,6 @@
-import { cover, diversity, curiosity } from "../assets";
+import { cover } from "../assets";
 
-function AboutHero() {
+function AboutHeroSection() {
   return (
     <section>
       {/* Hero Image */}{" "}
@@ -13,4 +13,4 @@ function AboutHero() {
   );
 }
 
-export default AboutHero;
+export default AboutHeroSection;
