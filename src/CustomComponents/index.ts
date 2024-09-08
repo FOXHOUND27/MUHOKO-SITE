@@ -1,4 +1,5 @@
 import HeroSection from "./HeroSection";
+import AboutHero from "./AboutHero";
 import InfoCardSection from "./infoCardSection";
 import Navigation from "./Navigation";
 import Partners from "./PartnersSection";
@@ -16,4 +17,5 @@ export {
   TechnologySection,
   TestimonialSection,
   FooterSection,
+  AboutHero,
 };

@@ -1,9 +1,10 @@
-import Home from "./Pages/Home";
+import { Navigation, AboutHero } from "./CustomComponents";
 
 function App() {
   return (
     <>
-      <Home />
+      <Navigation />
+      <AboutHero />
     </>
   );
 }
