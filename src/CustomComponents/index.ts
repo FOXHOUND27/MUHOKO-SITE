@@ -1,5 +1,5 @@
 import HeroSection from "./HeroSection";
-import AboutHeroSection from "./AboutHero";
+import AlternateHeroSection from "./AternateHero";
 import InfoCardSection from "./infoCardSection";
 import Navigation from "./Navigation";
 import Partners from "./PartnersSection";
@@ -8,6 +8,7 @@ import TechnologySection from "./TechnologySection";
 import TestimonialSection from "./TestimonialSection";
 import FooterSection from "./FooterSection";
 import AboutDescriptionSection from "./AboutDescriptionSection";
+import AboutMission from "./AboutMission";
 export {
   HeroSection,
   InfoCardSection,
@@ -17,6 +18,7 @@ export {
   TechnologySection,
   TestimonialSection,
   FooterSection,
-  AboutHeroSection,
+  AlternateHeroSection,
   AboutDescriptionSection,
+  AboutMission,
 };

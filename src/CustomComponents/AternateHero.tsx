@@ -1,6 +1,6 @@
 import { cover } from "../assets";
 
-function AboutHeroSection() {
+function AlternateHeroSection() {
   return (
     <section>
       {/* Hero Image */}{" "}
@@ -13,4 +13,4 @@ function AboutHeroSection() {
   );
 }
 
-export default AboutHeroSection;
+export default AlternateHeroSection;

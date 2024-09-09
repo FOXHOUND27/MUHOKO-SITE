@@ -1,15 +1,17 @@
 import {
   Navigation,
-  AboutHeroSection,
+  AlternateHeroSection,
   AboutDescriptionSection,
+  AboutMission,
 } from "./CustomComponents";
 
 function App() {
   return (
     <>
       <Navigation />
-      <AboutHeroSection />
+      <AlternateHeroSection />
       <AboutDescriptionSection />
+      <AboutMission />
     </>
   );
 }

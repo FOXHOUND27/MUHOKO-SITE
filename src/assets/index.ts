@@ -14,7 +14,6 @@ import films from "../assets/films.svg";
 import fudlink from "../assets/fudlink.png";
 import Hamburger from "../assets/Hamburger.png";
 import Instagram from "../assets/Instagram.png";
-import leading from "../assets/leading.jpg";
 import LinkedIn from "../assets/LinkedIn.png";
 import mainCharacter from "../assets/mainCharacter.svg";
 import mekenficent from "../assets/mekenficent.png";
@@ -34,6 +33,7 @@ import iPrint from "../assets/Iprint.png";
 import intraHealth from "../assets/intraHealth.png";
 import ngandu from "../assets/NganduEvents.png";
 import gamDev from "../assets/gameDev.svg";
+import TEAM from "../assets/TEAM.jpg";
 
 export {
   bigData,
@@ -52,7 +52,6 @@ export {
   fudlink,
   Hamburger,
   Instagram,
-  leading,
   LinkedIn,
   mainCharacter,
   mekenficent,
@@ -72,4 +71,5 @@ export {
   intraHealth,
   ngandu,
   gamDev,
+  TEAM,
 };
