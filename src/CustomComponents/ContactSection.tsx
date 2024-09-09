@@ -1,21 +1,4 @@
-import { useState } from "react";
-import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-
-const contactSchema = z.object({
-  name: z.string().min(1, { message: "Name is required" }), // Non-empty string
-  email: z.string().email({ message: "Invalid email address" }), // Email validation
-  message: z.string().min(1, { message: "Message is required" }), // Non-empty message
-});
-
 function ContactSection() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
   return (
     <section>
       {/* Contact Form Container */}
