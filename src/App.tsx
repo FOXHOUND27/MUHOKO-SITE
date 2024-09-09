@@ -1,15 +1,9 @@
-import {
-  Navigation,
-  AlternateHeroSection,
-  ContactSection,
-} from "./CustomComponents";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <AlternateHeroSection />
-      <ContactSection />
+      <Home />
     </>
   );
 }

@@ -27,7 +27,7 @@ function ContactSection() {
         {/* Form Container */}
         <div className="w-[50%] h-[70%] rounded-[30px] bg-black absolute top-1/2 left-[450px] transform -translate-x-1/2 -translate-y-1/2">
           {/* Text Div */}
-          <div className="p-5">
+          <div className="p-5 shadow-2xl">
             <h1 className="text-5xl font-semibold text-white">
               Get in <span className="text-red-600">Touch</span>
             </h1>
