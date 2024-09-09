@@ -10,6 +10,7 @@ import FooterSection from "./FooterSection";
 import AboutDescriptionSection from "./AboutDescriptionSection";
 import AboutMission from "./AboutMission";
 import AboutValues from "./AboutValues";
+import ContactSection from "./ContactSection";
 
 export {
   HeroSection,
@@ -24,4 +25,5 @@ export {
   AboutDescriptionSection,
   AboutMission,
   AboutValues,
+  ContactSection,
 };

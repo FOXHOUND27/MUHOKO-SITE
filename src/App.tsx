@@ -1,10 +1,7 @@
 import {
   Navigation,
   AlternateHeroSection,
-  AboutDescriptionSection,
-  AboutMission,
-  AboutValues,
-  FooterSection,
+  ContactSection,
 } from "./CustomComponents";
 
 function App() {
@@ -12,10 +9,7 @@ function App() {
     <>
       <Navigation />
       <AlternateHeroSection />
-      <AboutDescriptionSection />
-      <AboutMission />
-      <AboutValues />
-      <FooterSection />
+      <ContactSection />
     </>
   );
 }
