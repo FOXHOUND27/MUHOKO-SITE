@@ -9,6 +9,8 @@ import TestimonialSection from "./TestimonialSection";
 import FooterSection from "./FooterSection";
 import AboutDescriptionSection from "./AboutDescriptionSection";
 import AboutMission from "./AboutMission";
+import AboutValues from "./AboutValues";
+
 export {
   HeroSection,
   InfoCardSection,
@@ -21,4 +23,5 @@ export {
   AlternateHeroSection,
   AboutDescriptionSection,
   AboutMission,
+  AboutValues,
 };
