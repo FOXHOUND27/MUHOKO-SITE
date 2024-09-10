@@ -4,6 +4,8 @@ import { Contact, About } from "./Pages";
 function App() {
   return (
     <>
+    <Navigation />
+
 
       <Contact />
     </>
