@@ -2,6 +2,7 @@ import {
   Navigation,
   AlternateHeroSection,
   MuhokoDepartmentsText,
+  DepartmentCard
 } from "./CustomComponents";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navigation />
       <AlternateHeroSection />
       <MuhokoDepartmentsText />
+      <DepartmentCard/>
     </>
   );
 }
