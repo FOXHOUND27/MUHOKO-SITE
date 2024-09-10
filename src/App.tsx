@@ -1,9 +1,11 @@
-import { Contact, Home, About } from "./Pages";
-
+import { Navigation } from "./CustomComponents";
+import { Contact } from "./Pages";
 function App() {
   return (
     <>
-      <Home />
+      <Navigation />
+
+      <Contact />
     </>
   );
 }
