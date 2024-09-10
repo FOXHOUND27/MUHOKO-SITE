@@ -18,6 +18,22 @@ function ContactSection() {
               Have any questions or queries? Fill out the form below, and we’ll
               get back to you as soon as possible!
             </p>
+
+            {/* Contact Form */}
+            <form action="#" className="text-white flex flex-col mt-10">
+              {" "}
+              <label>Name</label>
+              <input type="text" name="name" className="rounded-lg mb-2" />
+              <label>Email</label>
+              <input type="email" name="email" className="rounded-lg mb-5" />
+              <label>Message</label>
+              <textarea name="message" className="rounded-lg" />
+              <input
+                className="bg-white text-black my-4 font-semibold cursor-pointer hover:bg-red-600 transition-all duration-500"
+                type="submit"
+                value="Send"
+              />
+            </form>
           </div>
         </div>
       </div>
