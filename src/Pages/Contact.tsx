@@ -5,11 +5,13 @@ import {
   FooterSection,
 } from "../CustomComponents";
 
+import { cover } from "../assets";
+
 function Contact() {
   return (
     <>
       <Navigation />
-      <AlternateHeroSection />
+      <AlternateHeroSection imageSource={cover} />
       <ContactSection />
       <FooterSection />
     </>

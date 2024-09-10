@@ -1,11 +1,13 @@
-import { cover } from "../assets";
+type imageProp = {
+  imageSource: string; // Expecting a string type for imageSource
+};
 
-function AlternateHeroSection() {
+function AlternateHeroSection({ imageSource }: imageProp) {
   return (
     <section>
       {/* Hero Image */}{" "}
       <img
-        src={cover}
+        src={imageSource}
         className="object-cover md:h-auto h-64"
         alt="Hero Image"
       />
