@@ -1,9 +1,9 @@
-import { ContactSection } from "./CustomComponents";
+import { Contact, Home, About } from "./Pages";
 
 function App() {
   return (
     <>
-      <ContactSection />
+      <Contact />
     </>
   );
 }
