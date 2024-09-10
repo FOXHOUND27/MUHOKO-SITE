@@ -11,6 +11,7 @@ import AboutDescriptionSection from "./AboutDescriptionSection";
 import AboutMission from "./AboutMission";
 import AboutValues from "./AboutValues";
 import ContactSection from "./ContactSection";
+import MuhokoDepartmentsText from "./MuhokoDepartmentsText";
 
 export {
   HeroSection,
@@ -26,4 +27,5 @@ export {
   AboutMission,
   AboutValues,
   ContactSection,
+  MuhokoDepartmentsText,
 };

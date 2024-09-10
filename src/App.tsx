@@ -1,11 +1,15 @@
-import { Navigation } from "./CustomComponents";
-import { Contact } from "./Pages";
+import {
+  Navigation,
+  AlternateHeroSection,
+  MuhokoDepartmentsText,
+} from "./CustomComponents";
+
 function App() {
   return (
     <>
       <Navigation />
-
-      <Contact />
+      <AlternateHeroSection />
+      <MuhokoDepartmentsText />
     </>
   );
 }
