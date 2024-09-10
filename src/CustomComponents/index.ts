@@ -12,7 +12,7 @@ import AboutMission from "./AboutMission";
 import AboutValues from "./AboutValues";
 import ContactSection from "./ContactSection";
 import MuhokoDepartmentsText from "./MuhokoDepartmentsText";
-
+import DepartmentCard from "./DepartmentCard"; 
 export {
   HeroSection,
   InfoCardSection,
@@ -28,4 +28,5 @@ export {
   AboutValues,
   ContactSection,
   MuhokoDepartmentsText,
+  DepartmentCard,
 };
