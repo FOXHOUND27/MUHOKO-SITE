@@ -10,6 +10,8 @@ import {
   gerApp,
 } from "../assets/index";
 
+import { motion } from "framer-motion";
+
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -52,7 +54,16 @@ function Partners() {
               data-aos="zoom-out"
               className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={fudlink} alt="fudlink" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                  rotate: -90,
+                  borderRadius: "100%",
+                }}
+                src={fudlink}
+                alt="fudlink"
+              />
             </div>
 
             <div

@@ -8,6 +8,8 @@ import {
   Close,
 } from "../assets";
 
+import { motion } from "framer-motion";
+
 function Navigation() {
   const [toggle, setToggle] = useState(false);
 
@@ -21,7 +23,17 @@ function Navigation() {
         {/* Logo */}
         <a href="#">
           {" "}
-          <img src={brand} className="w-28" alt="logo" />
+          <motion.img
+            whileHover={{ scale: 1.5 }}
+            whileTap={{
+              scale: 0.8,
+              rotate: -90,
+              borderRadius: "100%",
+            }}
+            src={brand}
+            className="w-28"
+            alt="logo"
+          />
         </a>
 
         {/* Hamburger Meno Div */}
