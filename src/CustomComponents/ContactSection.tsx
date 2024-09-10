@@ -40,8 +40,18 @@ function ContactSection() {
 
       {/* Mobile version of Contact Form */}
       <div className=" w-[85%] bg-black rounded-md py-5 px-4 mt-5 h-auto md:h-[400px] block md:hidden  mx-auto shadow-xl relative ">
+        {/* Contact Text Div */}
+        <div>
+          <h1 className="text-2xl font-semibold text-white">
+            Get in <span className="text-red-600">Touch</span>
+          </h1>
+          <p className="text-white text-sm">
+            Have any questions or queries? Fill out the form below, and we’ll
+            get back to you as soon as possible!
+          </p>
+        </div>
         {/* Contact Form */}
-        <form action="#" className="text-white flex flex-col mt-10">
+        <form action="#" className="text-white flex flex-col mt-2">
           {" "}
           <label>Name</label>
           <input type="text" name="name" className="rounded-md mb-2" />
