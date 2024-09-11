@@ -1,19 +1,5 @@
-import {
-  Navigation,
-  AlternateHeroSection,
-  MuhokoDepartmentsText,
-  DepartmentCard
-} from "./CustomComponents";
-
 function App() {
-  return (
-    <>
-      <Navigation />
-      <AlternateHeroSection />
-      <MuhokoDepartmentsText />
-      <DepartmentCard/>
-    </>
-  );
+  return <></>;
 }
 
 export default App;

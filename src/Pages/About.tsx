@@ -7,11 +7,13 @@ import {
   FooterSection,
 } from "../CustomComponents";
 
+import { cover } from "@/assets";
+
 function About() {
   return (
     <>
       <Navigation />
-      <AlternateHeroSection />
+      <AlternateHeroSection imageSource={cover} />
       <AboutDescriptionSection />
       <AboutMission />
       <AboutValues />

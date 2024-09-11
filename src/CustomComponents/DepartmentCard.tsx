@@ -1,5 +1,21 @@
 import { MuhokoTechnology, muhokoStudio } from "@/assets";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function DepartmentCard() {
+  // initializing aos
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 1200, // values from 0 to 3000, with step 50ms
+      once: true, // whether animation should happen only once - while scrolling down
+    });
+
+    // Refresh AOS to handle new elements dynamically added to the DOM
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <section>
@@ -12,11 +28,17 @@ function DepartmentCard() {
           />
 
           <div className="flex justify-center items-center flex-col p-0 md:p-5">
-            <h1 className=" text-2xl font-semibold text-center mt-3 md:mt-0">
+            <h1
+              data-aos="zoom-out"
+              className=" text-2xl font-semibold text-center mt-3 md:mt-0"
+            >
               MUHOKO TECHNOLOGY
             </h1>
 
-            <p className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center">
+            <p
+              data-aos="zoom-out"
+              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center"
+            >
               Muhoko Technology began with a simple belief in serving people who
               use machines. The Company believes that by taking time to
               understand each clients business and operations , it can build a
@@ -39,11 +61,17 @@ function DepartmentCard() {
           />
 
           <div className="flex justify-center items-center flex-col p-0 md:p-5">
-            <h1 className="text-2xl font-semibold text-center mt-3 md:mt-0">
+            <h1
+              data-aos="zoom-out"
+              className="text-2xl font-semibold text-center mt-3 md:mt-0"
+            >
               MUHOKO STUDIO
             </h1>
 
-            <p className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center">
+            <p
+              data-aos="zoom-out"
+              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center"
+            >
               Muhoko Studio is a division of Muhoko that is dedicated to quality
               game-making, creative graphical representations such as animations
               , sounds and phenomenal entertainment to consumers throughout
