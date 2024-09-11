@@ -1,7 +1,7 @@
 import "../CSS/Styles.css";
 import {
   websites,
-  gamDev,
+  gameDev,
   character,
   development,
   mainCharacter,
@@ -98,7 +98,7 @@ function SolutionSection() {
               className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
             >
               {" "}
-              <img src={gamDev} className="w-[52px]" alt="game dev icon" />
+              <img src={gameDev} className="w-[52px]" alt="game dev icon" />
               <h1 className="text-white text-lg my-1">Game Development</h1>
               <p className="text-white text-center">
                 We specialize in creating high-quality video games that
@@ -179,7 +179,7 @@ function SolutionSection() {
           {/* Card 3 */}
           <div className="w-[230px] h-[110px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-2">
             {" "}
-            <img src={gamDev} className="w-[32px]" alt="character dev icon" />
+            <img src={gameDev} className="w-[32px]" alt="character dev icon" />
             <h1 className="text-white text-[10px] my-1">Game Development</h1>
             <p className="text-white text-center text-[6px]">
               We specialize in creating high-quality video games that captivate
