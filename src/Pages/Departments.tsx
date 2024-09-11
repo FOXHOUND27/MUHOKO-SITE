@@ -11,7 +11,7 @@ function Departments() {
   return (
     <>
       <Navigation />
-      <AlternateHeroSection imageSource={cover} />
+      <AlternateHeroSection imageSource={cover} width="w-full" height="h-64" />
       <MuhokoDepartmentsText />
       <DepartmentCard />
       <FooterSection />
