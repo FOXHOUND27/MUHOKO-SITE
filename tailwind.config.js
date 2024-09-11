@@ -74,6 +74,7 @@ module.exports = {
     },
     backgroundImage: (theme) => ({
       "muhoko-gradient": "linear-gradient(90deg, #242424 0%, #383938 100%)",
+      "service-gradient": "linear-gradient(90deg, #ED2330 0%, #000000 100%)",
     }),
   },
   plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar")],

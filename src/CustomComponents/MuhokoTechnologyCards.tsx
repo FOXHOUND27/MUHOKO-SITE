@@ -17,7 +17,8 @@ function MuhokoTechnologyCards() {
           <h1 className="text-white text-sm md:text-lg my-1">VALUES</h1>
 
           <p className="text-white text-xs md:text-base text-center">
-            Spearheading technology, serving people who use machines
+            Spearheading technology,
+            <br /> serving people who use machines
           </p>
         </div>
       </div>
