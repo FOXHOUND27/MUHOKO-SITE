@@ -20,11 +20,17 @@ function MuhokoTechnologyText() {
       {" "}
       {/* Text Div */}
       <div className="flex flex-col items-center my-10 font-semibold">
-        <h2 className="text-2xl md:text-5xl text-black py-1 font-semibold md:py-2">
+        <h2
+          data-aos="zoom-out"
+          className="text-4xl text-center md:text-5xl text-black py-1 font-semibold md:py-2"
+        >
           About Muhoko Technology
         </h2>
 
-        <p className="text-black w-[80%] text-justify md:text-center text-xs md:text-base">
+        <p
+          data-aos="zoom-out"
+          className="text-black w-[80%] text-justify md:text-center text-xs md:text-base"
+        >
           The company believes that by taking time to understand each client’s
           business and operations, it can build a level of trust and
           understanding that will allow it to deliver the highest quality

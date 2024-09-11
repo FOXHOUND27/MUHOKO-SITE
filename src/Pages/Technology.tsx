@@ -5,12 +5,13 @@ import {
   MuhokoTechnologyText,
   MuhokoTechnologyCards,
   MuhokoTechnologyServices,
+  FooterSection,
 } from "@/CustomComponents";
 
 function Technology() {
   return (
     <>
-      <Navigation />
+      <Navigation navColor="bg-service-gradient" />
       <AlternateHeroSection
         imageSource={MuhokoTechnology}
         width="w-full"
@@ -19,6 +20,7 @@ function Technology() {
       <MuhokoTechnologyText />
       <MuhokoTechnologyCards />
       <MuhokoTechnologyServices />
+      <FooterSection />
     </>
   );
 }

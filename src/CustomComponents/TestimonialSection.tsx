@@ -39,7 +39,9 @@ export function TestimonialSection() {
             data-aos="zoom-out"
             className="flex flex-col relative mb-10 right-72 pt-5"
           >
-            <h1 className="text-white text-5xl font-semibold">Testimonials</h1>
+            <h1 className=" text-5xl font-semibold text-red-600">
+              Testimonials
+            </h1>
             <p className="text-white text-left text-lg ml-2 font-medium">
               Don't just take our word for it - see what actual clients of our{" "}
               <br />

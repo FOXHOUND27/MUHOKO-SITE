@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-function MuhokoStudioText (){
-// initializing aos
-useEffect(() => {
+
+function MuhokoStudioText() {
+  // initializing aos
+  useEffect(() => {
     AOS.init({
       // Global settings:
       duration: 1200, // values from 0 to 3000, with step 50ms
@@ -19,24 +20,29 @@ useEffect(() => {
       {" "}
       {/* Text Div */}
       <div className="flex flex-col items-center my-10 font-semibold">
-        <h2 className="text-2xl md:text-5xl text-black py-1 font-semibold md:py-2">
+        <h2
+          data-aos="zoom-out"
+          className="text-2xl md:text-5xl text-black py-1 font-semibold md:py-2"
+        >
           About Muhoko Studio
         </h2>
 
-        <p className="text-black w-[80%] text-justify md:text-center text-xs md:text-base">
-        The company believes that by taking time to understand each client’s business and operations, it can build a level of trust and understanding that
-        will allow it to deliver the highest quality  technology services. We exclusively concentrate on custom software and game development and the
-        management and collection data using various techniques that best suite stakeholder’s requirements.
-
-        The company’s main focus is to provide innovative and next generation solutions for the digital needs  of Namibia’s social and commercial 
-        landscape. To achieve  this, Muhoko has a team   of experiences IT professionals with more then 10 years of combined IT experience, both in
-        fixed and part-time positions. They are committed to creating sustainable results for their clients. 
+        <p
+          data-aos="zoom-out"
+          className="text-black w-[80%] text-justify md:text-center text-xs md:text-base"
+        >
+          Muhoko Studio is a division of Muhoko that is dedicated to bringing
+          quality game-making, creative graphical representations such as
+          animations, sounds, and phenomenal entertainment to consumers
+          throughout Namibia. The studio is a Namibian diversified multinational
+          mass gaming and entertainment conglomerate, headquartered in Windhoek,
+          Namibia.
         </p>
       </div>
       {/*Cards Div  */}
       <div></div>
     </section>
-    );
+  );
 }
 
 export default MuhokoStudioText;

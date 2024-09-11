@@ -12,7 +12,7 @@ import { cover } from "@/assets";
 function About() {
   return (
     <>
-      <Navigation />
+      <Navigation navColor="bg-muhoko-gradient" />
       <AlternateHeroSection imageSource={cover} height="h-64" width="w-full" />
       <AboutDescriptionSection />
       <AboutMission />

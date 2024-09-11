@@ -10,7 +10,7 @@ import { cover } from "@/assets";
 function Departments() {
   return (
     <>
-      <Navigation />
+      <Navigation navColor="bg-muhoko-gradient" />
       <AlternateHeroSection imageSource={cover} width="w-full" height="h-64" />
       <MuhokoDepartmentsText />
       <DepartmentCard />

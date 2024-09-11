@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
       {" "}
-      <Navigation />
+      <Navigation navColor="bg-muhoko-gradient" />
       <HeroSection />
       <Partners />
       <SolutionSection />

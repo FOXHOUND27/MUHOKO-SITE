@@ -33,7 +33,7 @@ function AboutValues() {
         >
           <img
             src={curiosity}
-            className=" w-[32px] md:w-[52px]"
+            className=" w-[45px] md:w-[52px]"
             alt="websites icon"
           />
 
@@ -53,7 +53,7 @@ function AboutValues() {
         >
           <img
             src={diversity}
-            className="w-[32px] md:w-[52px]"
+            className="w-[45px] md:w-[52px]"
             alt="websites icon"
           />
 
@@ -73,7 +73,7 @@ function AboutValues() {
         >
           <img
             src={courage}
-            className="w-[32px] md:w-[52px]"
+            className="w-[45px] md:w-[52px]"
             alt="websites icon"
           />
 

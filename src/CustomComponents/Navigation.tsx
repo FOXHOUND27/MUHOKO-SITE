@@ -7,10 +7,13 @@ import {
   Hamburger,
   Close,
 } from "../assets";
-
 import { motion } from "framer-motion";
 
-function Navigation() {
+type navigation = {
+  navColor: string; // Expecting a string type for color
+};
+
+function Navigation({ navColor }: navigation) {
   const [toggle, setToggle] = useState(false);
 
   function handleClick() {
@@ -18,7 +21,9 @@ function Navigation() {
   }
 
   return (
-    <nav className="py-4 w-full bg-muhoko-gradient shadow-2xl fixed top-0 left-0 z-[9999]">
+    <nav
+      className={`py-4 w-full ${navColor}    shadow-2xl fixed top-0 left-0 z-[9999]`}
+    >
       <div className="container h-full w-full md:flex md:justify-around md:items-center">
         {/* Logo */}
         <a href="#">
