@@ -13,7 +13,7 @@ function About() {
   return (
     <>
       <Navigation />
-      <AlternateHeroSection imageSource={cover} />
+      <AlternateHeroSection imageSource={cover} height="h-64" width="w-full" />
       <AboutDescriptionSection />
       <AboutMission />
       <AboutValues />

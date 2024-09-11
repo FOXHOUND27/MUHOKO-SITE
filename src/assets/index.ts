@@ -34,6 +34,8 @@ import intraHealth from "../assets/intraHealth.png";
 import ngandu from "../assets/NganduEvents.png";
 import gamDev from "../assets/gameDev.svg";
 import TEAM from "../assets/TEAM.jpg";
+import StudioAlt from "../assets/StudioAlt.png";
+import TechAlt from "../assets/TechAlt.png";
 
 export {
   bigData,
@@ -72,4 +74,6 @@ export {
   ngandu,
   gamDev,
   TEAM,
+  StudioAlt,
+  TechAlt,
 };
