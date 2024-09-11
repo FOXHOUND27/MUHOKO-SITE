@@ -18,6 +18,7 @@ function MuhokoTechnologyText() {
   return (
     <section>
       {" "}
+      {/* Text Div */}
       <div className="flex flex-col items-center my-10 font-semibold">
         <h2 className="text-2xl md:text-5xl text-black py-1 font-semibold md:py-2">
           About Muhoko Technology
@@ -38,6 +39,8 @@ function MuhokoTechnologyText() {
           results for their clients.
         </p>
       </div>
+      {/*Cards Div  */}
+      <div></div>
     </section>
   );
 }

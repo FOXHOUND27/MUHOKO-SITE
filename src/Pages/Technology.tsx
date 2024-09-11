@@ -3,6 +3,7 @@ import {
   Navigation,
   AlternateHeroSection,
   MuhokoTechnologyText,
+  MuhokoTechnologyCards,
 } from "@/CustomComponents";
 
 function Technology() {
@@ -15,6 +16,7 @@ function Technology() {
         height="h-64 pt-16"
       />
       <MuhokoTechnologyText />
+      <MuhokoTechnologyCards />
     </>
   );
 }

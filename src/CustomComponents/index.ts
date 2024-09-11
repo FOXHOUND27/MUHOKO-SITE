@@ -14,6 +14,7 @@ import ContactSection from "./ContactSection";
 import MuhokoDepartmentsText from "./MuhokoDepartmentsText";
 import DepartmentCard from "./DepartmentCard";
 import MuhokoTechnologyText from "./MuhokoTechnologyText";
+import MuhokoTechnologyCards from "./MuhokoTechnologyCards";
 export {
   HeroSection,
   InfoCardSection,
@@ -31,4 +32,5 @@ export {
   MuhokoDepartmentsText,
   DepartmentCard,
   MuhokoTechnologyText,
+  MuhokoTechnologyCards,
 };
