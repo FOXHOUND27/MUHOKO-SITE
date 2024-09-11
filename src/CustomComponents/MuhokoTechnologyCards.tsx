@@ -1,7 +1,7 @@
 function MuhokoTechnologyCards() {
   return (
     <section>
-      <div className="w-[90%] h-auto mx-auto flex flex-col justify-center items-center md:flex-row space-x-0 md:space-x-5 md:mt-5 space-y-5  md:space-y-0 mb-5 md:mb-0">
+      <div className="w-[90%] h-auto mx-auto flex flex-col justify-center items-center md:flex-row space-x-0 md:space-x-5 md:mt-5 space-y-5  md:space-y-0 mb-5 md:mb-5">
         {/* Card 1 */}
         <div className="md:w-[450px] md:h-[200px] w-[350px] h-[150px] bg-[#ED2330] rounded-lg shadow-2xl flex flex-col justify-center items-center p-5">
           <h1 className="text-white text-sm md:text-lg my-1">MISSION </h1>

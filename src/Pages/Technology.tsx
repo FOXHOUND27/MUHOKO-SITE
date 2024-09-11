@@ -4,6 +4,7 @@ import {
   AlternateHeroSection,
   MuhokoTechnologyText,
   MuhokoTechnologyCards,
+  MuhokoTechnologyServices,
 } from "@/CustomComponents";
 
 function Technology() {
@@ -17,6 +18,7 @@ function Technology() {
       />
       <MuhokoTechnologyText />
       <MuhokoTechnologyCards />
+      <MuhokoTechnologyServices />
     </>
   );
 }
