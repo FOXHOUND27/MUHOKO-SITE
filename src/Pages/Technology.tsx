@@ -1,5 +1,9 @@
 import { MuhokoTechnology } from "../assets";
-import { Navigation, AlternateHeroSection } from "@/CustomComponents";
+import {
+  Navigation,
+  AlternateHeroSection,
+  MuhokoTechnologyText,
+} from "@/CustomComponents";
 
 function Technology() {
   return (
@@ -10,6 +14,7 @@ function Technology() {
         width="w-full"
         height="h-64 pt-16"
       />
+      <MuhokoTechnologyText />
     </>
   );
 }
