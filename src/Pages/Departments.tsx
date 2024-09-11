@@ -1,8 +1,11 @@
-import { AlternateHeroSection } from "@/CustomComponents";
+import { AlternateHeroSection, DepartmentCard, MuhokoDepartmentsText, Navigation } from "@/CustomComponents";
 function Departments () {
     return (
         <>
-        
+        <Navigation />
+        <AlternateHeroSection />
+        <MuhokoDepartmentsText />
+        <DepartmentCard/>
         </>
     );
 }
