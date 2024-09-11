@@ -2,6 +2,7 @@ import { MuhokoTechnology, muhokoStudio } from "@/assets";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function DepartmentCard() {
   // initializing aos
@@ -46,9 +47,12 @@ function DepartmentCard() {
               highest of quality technology services.
             </p>
 
-            <button className="bg-[#ED2330] text-white hover:text-black hover:bg-white transition-all duration-500 rounded-md py-1 px-4 mb-4 md:mb-0 text-center">
-              Learn more about Muhoko Technology
-            </button>
+            <Link to="/technology">
+              {" "}
+              <button className="bg-[#ED2330] text-white hover:text-black hover:bg-white transition-all duration-500 rounded-md py-1 px-4 mb-4 md:mb-0 text-center">
+                Learn more about Muhoko Technology
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -79,9 +83,11 @@ function DepartmentCard() {
               entertainment options to the people of Namibia.
             </p>
 
-            <button className="bg-[#8351A1] text-white hover:bg-white hover:text-black transition-all duration-500 rounded-xl py-1 px-4 mb-4 md:mb-0">
-              Learn more about Muhoko Studio
-            </button>
+            <Link to="/studio">
+              <button className="bg-[#8351A1] text-white hover:bg-white hover:text-black transition-all duration-500 rounded-xl py-1 px-4 mb-4 md:mb-0">
+                Learn more about Muhoko Studio
+              </button>
+            </Link>
           </div>
         </div>
       </section>

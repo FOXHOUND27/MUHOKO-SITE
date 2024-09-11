@@ -9,6 +9,8 @@ import {
 } from "../assets";
 import { motion } from "framer-motion";
 
+import { Link } from "react-router-dom";
+
 type navigation = {
   navColor: string; // Expecting a string type for color
 };
@@ -55,16 +57,16 @@ function Navigation({ navColor }: navigation) {
           }`}
         >
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0  ml-3 my-1 ">
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
-            <a href="#">Departments</a>
+            <Link to="/departments">Departments</Link>
           </li>
           <li className="md:hidden block my-2">
             <div className="flex space-x-2 justify-center">
