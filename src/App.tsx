@@ -1,9 +1,11 @@
 import { Technology, Home, About, Contact, Departments, Studio } from "./Pages";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./util/ScrollToTop";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="about" element={<About />} />

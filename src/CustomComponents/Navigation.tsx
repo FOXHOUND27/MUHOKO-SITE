@@ -8,6 +8,14 @@ import {
   Close,
 } from "../assets";
 import { motion } from "framer-motion";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 import { Link } from "react-router-dom";
 
@@ -24,7 +32,7 @@ function Navigation({ navColor }: navigation) {
 
   return (
     <nav
-      className={`py-4 w-full ${navColor}    shadow-2xl fixed top-0 left-0 z-[9999]`}
+      className={`py-4 w-full ${navColor}    shadow-2xl fixed top-0 left-0 z-50`}
     >
       <div className="container h-full w-full md:flex md:justify-around md:items-center">
         {/* Logo */}
@@ -52,7 +60,7 @@ function Navigation({ navColor }: navigation) {
         />
         {/* Navigation Items */}
         <ul
-          className={`md:flex md:items-center md:text-lg text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-[#242424] md:bg-transparent md:z-10 left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:text-lg overflow-hidden text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-[#242424] md:bg-transparent md:z-10 left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
             toggle ? "top-20" : "top-[-490px]"
           }`}
         >
@@ -66,7 +74,22 @@ function Navigation({ navColor }: navigation) {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
-            <Link to="/departments">Departments</Link>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="border-none">
+                Departments
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-muhoko-gradient text-white border-none text-center">
+                <DropdownMenuItem>
+                  <Link to="/departments">Departments</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link to="/technology">Muhoko Technology </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link to="/studio">Muhoko Studio </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </li>
           <li className="md:hidden block my-2">
             <div className="flex space-x-2 justify-center">
