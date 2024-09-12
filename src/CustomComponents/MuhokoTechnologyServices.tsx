@@ -28,7 +28,7 @@ function MuhokoTechnologyServices() {
       {/* Cards container */}
       <div className="w-full h-auto pt-0 md:pt-8 flex flex-col space-y-5 md:space-y-20 mb-10 md:mb-20 justify-center items-center ">
         {/* Service Card 1 */}
-        <div className="w-[90%] md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-48 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-40 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={websites}
@@ -171,7 +171,7 @@ function MuhokoTechnologyServices() {
               data-aos="zoom-out"
               className="text-white capitalize text-center py-2 text-2xl md:text-4xl"
             >
-              Rise of robots and artificial intelligence in namibia
+              Rise of robots and <br /> artificial intelligence in namibia
             </h1>
           </div>
         </div>

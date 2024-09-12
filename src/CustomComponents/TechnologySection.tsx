@@ -91,7 +91,7 @@ function TechnologySection() {
 
       <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative  mt-10">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-xl w-[90%] text-center font-semibold">
+          <h1 className="text-2xl w-[90%] text-center font-semibold">
             We make use of the most innovative technologies to provide our
             clients the highest of quality services
           </h1>

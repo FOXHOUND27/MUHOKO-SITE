@@ -1,5 +1,5 @@
 import { Technology, Home, About, Contact, Departments, Studio } from "./Pages";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import ScrollToTop from "./util/ScrollToTop";
 
 function App() {

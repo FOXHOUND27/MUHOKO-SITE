@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function InfoCardSection() {
   // initializing aos
@@ -31,9 +32,11 @@ function InfoCardSection() {
               technology solutions. With a mission to provide quality technology
               services tailored to the unique needs of each client
             </p>
-            <button className=" bg-muhoko-gradient text-white px-10 py-2 rounded-lg mt-1">
-              Learn More
-            </button>
+            <Link to="/about">
+              <button className=" bg-black text-white hover:bg-red-600 hover:text-white transition-all duration-500 ease-in-out px-10 py-2 rounded-lg mt-1">
+                Learn More
+              </button>
+            </Link>
           </div>
           {/* img/video div */}
           <div className="relative">
@@ -63,7 +66,7 @@ function InfoCardSection() {
       {/* Mobile version of section */}
       <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative ">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-xl w-[300px] text-center font-semibold">
+          <h1 className="text-2xl w-[300px] text-center font-semibold">
             Leading the Future of Technology in Africa
           </h1>
           <p className="w-[80%] text-center text-sm font-medium my-2 mx-auto">

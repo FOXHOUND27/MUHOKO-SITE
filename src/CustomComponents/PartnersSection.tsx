@@ -122,10 +122,10 @@ function Partners() {
       </div>
 
       {/* Mobile partners section */}
-      <div className=" w-full md:w-[85%] py-6 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto my-20 shadow-xl relative top-20 z-[-2]">
+      <div className=" w-full md:w-[85%] py-6 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5] rounded-md  mx-auto my-20 shadow-xl relative top-20 z-[-2]">
         {/* Div containing titlt and subtitle text */}
         <div className="md:text-center text-center py-6 md:px-0">
-          <h1 className=" text-[18px] font-semibold">
+          <h1 className=" text-xl px-2 text-center font-semibold">
             Our Partners and Collaborations
           </h1>
           <p className="md:text-lg text-xs md:w-auto w-[80%] text-[#716E6F] font-medium md:mx-0 mx-auto">

@@ -12,8 +12,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
@@ -36,12 +34,12 @@ function Navigation({ navColor }: navigation) {
     >
       <div className="container h-full w-full md:flex md:justify-around md:items-center">
         {/* Logo */}
-        <a href="#">
+        <Link to="/">
           {" "}
           <motion.img
-            whileHover={{ scale: 1.5 }}
+            whileHover={{ scale: 1.2 }}
             whileTap={{
-              scale: 0.8,
+              scale: 0.5,
               rotate: -90,
               borderRadius: "100%",
             }}
@@ -49,7 +47,7 @@ function Navigation({ navColor }: navigation) {
             className="w-28"
             alt="logo"
           />
-        </a>
+        </Link>
 
         {/* Hamburger Meno Div */}
         <img
@@ -75,11 +73,11 @@ function Navigation({ navColor }: navigation) {
           </li>
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
             <DropdownMenu>
-              <DropdownMenuTrigger className="border-none">
+              <DropdownMenuTrigger className="border-none px-0 mx-0 overflow-hidden">
                 Departments
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-muhoko-gradient text-white border-none text-center">
-                <DropdownMenuItem>
+              <DropdownMenuContent className="bg-muhoko-gradient text-white border-none text-2xl relative top-14 md:top-5">
+                <DropdownMenuItem className="text-center">
                   <Link to="/departments">Departments</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>

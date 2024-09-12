@@ -1,5 +1,6 @@
 import "../CSS/Styles.css";
 import { YouTube, Facebook, Instagram, LinkedIn, brand } from "../assets/index";
+import { Link } from "react-router-dom";
 
 function FooterSection() {
   return (
@@ -32,39 +33,19 @@ function FooterSection() {
           Services
         </h1>
         <ul className="space-y-1 text-center md:text-left">
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              Web development
-            </a>
+          <li className="text-white hover:text-[#ED2330] ">
+            <Link to="/technology">Web Development</Link>
           </li>
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              App development
-            </a>
+          <li className="text-white hover:text-[#ED2330] ">
+            <Link to="/technology">App Development</Link>
           </li>
 
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              Software development
-            </a>
+          <li className="text-white hover:text-[#ED2330] ">
+            <Link to="/technology">Software Development</Link>
           </li>
 
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              View More
-            </a>
+          <li className="text-white hover:text-[#ED2330] ">
+            <Link to="/technology">View More</Link>
           </li>
         </ul>
       </div>
@@ -75,21 +56,11 @@ function FooterSection() {
           Departments
         </h1>
         <ul className="space-y-1 text-center md:text-left">
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              Muhoko Technology
-            </a>
+          <li className="text-white hover:text-[#ED2330] transition-all duration-700">
+            <Link to="/technology">Muhoko Technology</Link>
           </li>
-          <li>
-            <a
-              href="#"
-              className="text-white hover:text-[#ED2330] transition-all duration-700"
-            >
-              Muhoko Studio
-            </a>
+          <li className="text-white hover:text-[#ED2330] transition-all duration-700">
+            <Link to="/studio">Muhoko Studio</Link>
           </li>
         </ul>
       </div>
