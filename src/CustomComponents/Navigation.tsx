@@ -77,15 +77,18 @@ function Navigation({ navColor }: navigation) {
                 Departments
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-muhoko-gradient text-white border-none text-2xl relative top-14 md:top-5">
-                <DropdownMenuItem className="text-center">
-                  <Link to="/departments">Departments</Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link to="/technology">Muhoko Technology </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link to="/studio">Muhoko Studio </Link>
-                </DropdownMenuItem>
+                <Link to="/departments">
+                  <DropdownMenuItem className="text-center">
+                    Departments
+                  </DropdownMenuItem>
+                </Link>
+                <Link to="/technology">
+                  {" "}
+                  <DropdownMenuItem>Muhoko Technology</DropdownMenuItem>
+                </Link>
+                <Link to="/studio">
+                  <DropdownMenuItem>Muhoko Studio</DropdownMenuItem>
+                </Link>
               </DropdownMenuContent>
             </DropdownMenu>
           </li>

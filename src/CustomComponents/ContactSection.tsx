@@ -1,4 +1,19 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 function ContactSection() {
+  // initializing aos
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 1200, // values from 0 to 3000, with step 50ms
+      once: true, // whether animation should happen only once - while scrolling down
+    });
+
+    // Refresh AOS to handle new elements dynamically added to the DOM
+    AOS.refresh();
+  }, []);
   return (
     <section>
       {/*Desktop Contact Form Container */}
@@ -10,7 +25,7 @@ function ContactSection() {
         {/* Form Container */}
         <div className="w-[50%] h-[80%]  rounded-[30px] bg-black absolute top-1/2 left-[450px] transform -translate-x-1/2 -translate-y-1/2">
           {/* Text Div */}
-          <div className="p-4">
+          <div data-aos="zoom-out" className="p-4">
             <h1 className="text-5xl font-semibold text-white">
               Get in <span className="text-red-600">Touch</span>
             </h1>

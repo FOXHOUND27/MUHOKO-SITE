@@ -58,7 +58,6 @@ function Partners() {
                 whileHover={{ scale: 1.5 }}
                 whileTap={{
                   scale: 0.8,
-                  rotate: -90,
                   borderRadius: "100%",
                 }}
                 src={fudlink}
@@ -70,21 +69,44 @@ function Partners() {
               data-aos="zoom-out"
               className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2"
             >
-              <img src={mekenficent} alt="mekenficent" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={mekenficent}
+                alt="mekenficent"
+              />
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={NUST} alt="NUST" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                  borderRadius: "100%",
+                }}
+                src={NUST}
+                alt="NUST"
+              />
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={fashion} className="w-14" alt="Fashion" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={fashion}
+                className="w-14"
+                alt="Fashion"
+              />
             </div>
           </div>
 
@@ -94,28 +116,60 @@ function Partners() {
               data-aos="zoom-out"
               className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={OTESA} className="w-28 h-20" alt="Otesa" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={OTESA}
+                className="w-28 h-20"
+                alt="Otesa"
+              />
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={NTTS} className="w-16" alt="NTTS" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={NTTS}
+                className="w-16"
+                alt="NTTS"
+              />
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={intraHealth} className="w-32" alt="NUST" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={intraHealth}
+                className="w-32"
+                alt="NUST"
+              />
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <img src={gerApp} className="w-44" alt="gerApp" />
+              <motion.img
+                whileHover={{ scale: 1.5 }}
+                whileTap={{
+                  scale: 0.8,
+                }}
+                src={gerApp}
+                className="w-44"
+                alt="gerApp"
+              />
             </div>
           </div>
         </div>

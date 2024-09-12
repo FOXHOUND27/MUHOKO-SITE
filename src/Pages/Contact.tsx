@@ -4,7 +4,6 @@ import {
   ContactSection,
   FooterSection,
 } from "../CustomComponents";
-
 import { cover } from "../assets";
 import { motion } from "framer-motion";
 
