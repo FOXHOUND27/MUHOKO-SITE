@@ -49,7 +49,7 @@ function DepartmentCard() {
 
             <Link to="/technology">
               {" "}
-              <button className="bg-[#ED2330] text-white hover:text-black hover:bg-white transition-all duration-500 rounded-md py-1 px-4 mb-4 md:mb-0 text-center">
+              <button className="bg-[#ED2330] text-white hover:text-black hover:bg-white transition-all duration-500 rounded-xl py-1 px-3 mb-4 md:mb-0 text-center">
                 Learn more about Muhoko Technology
               </button>
             </Link>
