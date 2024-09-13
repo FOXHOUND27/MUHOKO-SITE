@@ -19,7 +19,7 @@ function ContactSection() {
       {/*Desktop Contact Form Container */}
       <div className="w-[85%] h-[685px] hidden md:block bg-[#D9D9D9] mx-auto mt-10 rounded-[100px] shadow-2xl mb-10 relative">
         {/* Gradient Div on right */}
-        <div className="h-full w-[20%] bg-black ml-auto rounded-tr-[100px] rounded-br-[100px] bg-muhoko-gradient"></div>
+        <div className="h-full w-[20%] bg-black ml-auto rounded-tr-[100px] rounded-br-[100px]"></div>
         {/* Gradient Div ending */}
 
         {/* Form Container */}

@@ -18,7 +18,7 @@ function MuhokoDepartmentsText() {
   return (
     <>
       <section>
-        <div className="flex flex-col items-center my-10 font-semibold">
+        <div className="flex flex-col items-center my-10 font-semibold space-y-1 md:space-y-2">
           <h2 data-aos="zoom-out" className="text-2xl md:text-5xl text-black">
             Muhoko Departments
           </h2>

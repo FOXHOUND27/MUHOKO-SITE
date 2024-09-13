@@ -58,7 +58,7 @@ function SolutionSection() {
             {/* Card 1 */}
             <div
               data-aos="fade-up"
-              className="w-[400px] h-[200px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+              className="w-[400px] h-[200px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
             >
               <img src={websites} className="w-[52px]" alt="websites icon" />
 
@@ -72,7 +72,7 @@ function SolutionSection() {
             {/* Card 2 */}
             <div
               data-aos="fade-up"
-              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+              className="w-[400px] h-[200px] bg-black  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
             >
               <img
                 src={development}
@@ -95,7 +95,7 @@ function SolutionSection() {
           <div className="flex space-x-10">
             <div
               data-aos="fade-up"
-              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+              className="w-[400px] h-[200px] bg-black  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
             >
               {" "}
               <img src={gameDev} className="w-[52px]" alt="game dev icon" />
@@ -108,7 +108,7 @@ function SolutionSection() {
             </div>
             <div
               data-aos="fade-up"
-              className="w-[400px] h-[200px] bg-muhoko-gradient  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+              className="w-[400px] h-[200px] bg-black  rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
             >
               {" "}
               <img

@@ -29,7 +29,7 @@ function AboutValues() {
         {/* Card 1 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
           <img
             src={curiosity}
@@ -49,7 +49,7 @@ function AboutValues() {
         {/* Card 2 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
           <img
             src={diversity}
@@ -69,7 +69,7 @@ function AboutValues() {
         {/* Card 3 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-muhoko-gradient rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
           <img
             src={courage}
