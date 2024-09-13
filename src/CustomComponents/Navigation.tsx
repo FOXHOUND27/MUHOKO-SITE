@@ -76,7 +76,7 @@ function Navigation({ navColor }: navigation) {
               <DropdownMenuTrigger className="border-none px-0 mx-0 overflow-hidden">
                 Departments
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-muhoko-gradient text-white border-none text-2xl relative top-14 md:top-5">
+              <DropdownMenuContent className="bg-muhoko-gradient text-white border-none relative top-14 md:top-5">
                 <Link to="/departments">
                   <DropdownMenuItem className="text-center">
                     Departments
