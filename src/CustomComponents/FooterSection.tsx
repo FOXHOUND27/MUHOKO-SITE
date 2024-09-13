@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 function FooterSection() {
   return (
-    <footer className="w-full bg-muhoko-gradient h-auto footer-radius mt-16 md:mt-0 flex flex-col md:flex-row justify-center py-10 space-x-0 md:space-x-20">
+    <footer className="w-full bg-black h-auto footer-radius mt-16 md:mt-0 flex flex-col md:flex-row justify-center py-10 space-x-0 md:space-x-20">
       {/* Footer Items */}
       <div className="flex flex-col items-center mx-auto md:mx-0">
-        <img src={brand} className="w-80" alt="Logo" />
+        <img src={brand} className="w-56" alt="Logo" />
         <div className="flex space-x-2 items-center justify-center mt-4 ">
           <a
             href="https://www.linkedin.com/company/muhoko-group/posts/?feedView=all"

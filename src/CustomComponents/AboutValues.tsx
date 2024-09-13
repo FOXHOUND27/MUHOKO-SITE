@@ -17,7 +17,7 @@ function AboutValues() {
   }, []);
 
   return (
-    <section className="md:my-10 md:mt-0 mt-52">
+    <section className="md:my-10 md:mt-0 mt-52 overflow-hidden">
       <h1
         data-aos="zoom-out"
         className="text-center text-5xl font-semibold mb-4"
@@ -25,7 +25,7 @@ function AboutValues() {
         Our Values
       </h1>
       {/* Cards Container */}
-      <div className="w-[90%] h-auto mx-auto flex flex-col justify-center items-center md:flex-row space-x-0 md:space-x-5 md:mt-5 space-y-5  md:space-y-0 mb-5 md:mb-0">
+      <div className="w-[90%] h-auto mx-auto flex flex-col justify-center items-center md:flex-row space-x-0 md:space-x-5 md:mt-5 space-y-5  md:space-y-0 mb-5 md:mb-0 overflow-hidden">
         {/* Card 1 */}
         <div
           data-aos="fade-up"

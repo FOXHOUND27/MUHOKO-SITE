@@ -22,16 +22,13 @@ function AboutDescriptionSection() {
         <h1 data-aos="zoom-out" className="text-5xl my-2 font-semibold">
           About Us{" "}
         </h1>
-        <p data-aos="zoom-out" className="text-3xl font-medium">
-          GET TO KNOW US AND <br /> WHAT WE DO !
-        </p>
       </div>
       {/* Main Paragraph */}
       <div className="text-center flex w-full justify-center items-center">
         {/* Desktop Description */}
         <p
           data-aos="zoom-out"
-          className="w-[90%] text-lg leading-normal text-center text-pretty hidden md:block"
+          className="w-[90%] text-lg leading-normal text-justify hidden md:block"
         >
           Muhoko Innovation Studio is a multidisciplinary internet company that
           caters to becoming one of the best and leading technology companies in

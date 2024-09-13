@@ -18,7 +18,7 @@ function Contact() {
         transition={{ duration: 0.8 }}
       >
         {" "}
-        <Navigation navColor="bg-muhoko-gradient" />
+        <Navigation navColor="bg-black" />
         <AlternateHeroSection
           imageSource={cover}
           width="w-full"

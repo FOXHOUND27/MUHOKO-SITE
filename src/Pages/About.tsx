@@ -20,7 +20,7 @@ function About() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.8 }}
       >
-        <Navigation navColor="bg-muhoko-gradient" />
+        <Navigation navColor="bg-black" />
         <AlternateHeroSection
           imageSource={cover}
           height="h-64"

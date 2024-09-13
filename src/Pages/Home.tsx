@@ -21,7 +21,7 @@ function Home() {
         transition={{ duration: 2 }}
       >
         {" "}
-        <Navigation navColor="bg-muhoko-gradient" />
+        <Navigation navColor="bg-black" />
         <HeroSection />
         <Partners />
         <SolutionSection />
