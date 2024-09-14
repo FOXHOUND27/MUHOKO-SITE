@@ -37,6 +37,8 @@ import TEAM from "../assets/TEAM.jpg";
 import StudioAlt from "../assets/StudioAlt.png";
 import TechAlt from "../assets/TechAlt.png";
 import ibia from "../assets/Ibia.png";
+import email from "../assets/email.svg";
+import phone from "../assets/phone.svg";
 
 export {
   bigData,
@@ -78,4 +80,6 @@ export {
   StudioAlt,
   TechAlt,
   ibia,
+  email,
+  phone,
 };

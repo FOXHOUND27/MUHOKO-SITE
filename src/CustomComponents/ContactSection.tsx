@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { phone, email } from "../assets";
 
 function ContactSection() {
   // initializing aos
@@ -23,7 +24,7 @@ function ContactSection() {
         {/* Gradient Div ending */}
 
         {/* Form Container */}
-        <div className="w-[50%] h-[80%]  rounded-[30px] bg-black absolute top-1/2 left-[450px] transform -translate-x-1/2 -translate-y-1/2">
+        <div className="w-[50%] h-[85%]  rounded-[30px] bg-black absolute top-1/2 left-[450px] transform -translate-x-1/2 -translate-y-1/2">
           {/* Text Div */}
           <div data-aos="zoom-out" className="p-4">
             <h1 className="text-5xl font-semibold text-white">
@@ -60,6 +61,34 @@ function ContactSection() {
                 value="Send"
               />
             </form>
+          </div>
+          {/* Details Container */}
+          <div className="flex">
+            {" "}
+            {/* Contact Details */}
+            <div className="px-4 ">
+              {/* Phone */}
+              <div className="flex">
+                <img src={phone} className="w-12 " alt="phone" />
+                {/* Phone Text */}
+                <div className="text-white ml-2">
+                  <h1>PHONE</h1>
+                  <h1>0810000000</h1>
+                </div>
+              </div>
+            </div>
+            {/* Email Details */}
+            <div className="px-4 ">
+              {/* Phone */}
+              <div className="flex">
+                <img src={email} className="w-12 " alt="phone" />
+                {/* Phone Text */}
+                <div className="text-white ml-2">
+                  <h1>EMAIL</h1>
+                  <h1>admin@muhoko.org</h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -98,6 +127,34 @@ function ContactSection() {
             value="Send"
           />
         </form>
+
+        <div className="flex flex-col items-center space-y-4 mt-2">
+          {" "}
+          {/* Contact Details */}
+          <div>
+            {/* Phone */}
+            <div className="flex justify-center items-center">
+              <img src={phone} className="w-12 " alt="phone" />
+              {/* Phone Text */}
+              <div className="text-white ml-2">
+                <h1>PHONE</h1>
+                <h1>0810000000</h1>
+              </div>
+            </div>
+          </div>
+          {/* Email Details */}
+          <div>
+            {/* Email */}
+            <div className="flex justify-center items-center">
+              <img src={email} className="w-12 " alt="phone" />
+              {/* Email Text */}
+              <div className="text-white ml-2">
+                <h1>EMAIL</h1>
+                <h1>admin@muhoko.org</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

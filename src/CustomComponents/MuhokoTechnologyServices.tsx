@@ -48,14 +48,16 @@ function MuhokoTechnologyServices() {
               {/* Service Column 1 */}
               <ul data-aos="zoom-out" className="text-white px-5">
                 <li>Website Development</li>
-                <li>Website and email Hosting</li>
-                <li>DomainRegistration</li>
+                <li>Website Hosting</li>
+                <li>Domain Registration</li>
+                <li>Website Security</li>
               </ul>
               {/* Service Column 2 */}
               <ul data-aos="zoom-out" className="text-white px-5">
-                <li>Website Development</li>
-                <li>Website and email Hosting</li>
-                <li>DomainRegistration</li>
+                <li>Site Maintenance</li>
+                <li>E-Learning Sites</li>
+                <li>E-commerce Sites</li>
+                <li>E-mail Hosting</li>
               </ul>
             </div>
           </div>

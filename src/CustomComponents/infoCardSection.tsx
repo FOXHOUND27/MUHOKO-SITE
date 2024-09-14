@@ -56,7 +56,7 @@ function InfoCardSection() {
               {/* Square behind video and styling */}
               <div
                 data-aos="zoom-out"
-                className=" w-[450px] h-[310px] shadow-2xl bg-muhoko-gradient absolute z-[5] top-[70px] right-[50px] rounded-xl"
+                className=" w-[450px] h-[310px] shadow-2xl bg-black absolute z-[5] top-[70px] right-[50px] rounded-xl"
               ></div>
             </div>
           </div>
