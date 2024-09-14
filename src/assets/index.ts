@@ -1,7 +1,7 @@
 import bigData from "../assets/bigData.svg";
 import brand from "../assets/brand.png";
 import character from "../assets/character.svg";
-import Close from "../assets/Close.png";
+
 import courage from "../assets/courage.svg";
 import cover from "../assets/cover.png";
 import curiosity from "../assets/curiosity.svg";
@@ -12,7 +12,7 @@ import Facebook from "../assets/Facebook.png";
 import fashion from "../assets/fashion.png";
 import films from "../assets/films.svg";
 import fudlink from "../assets/fudlink.png";
-import Hamburger from "../assets/Hamburger.png";
+
 import Instagram from "../assets/Instagram.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import mainCharacter from "../assets/mainCharacter.svg";
@@ -39,6 +39,8 @@ import TechAlt from "../assets/TechAlt.png";
 import ibia from "../assets/Ibia.png";
 import email from "../assets/email.svg";
 import phone from "../assets/phone.svg";
+import closeIcon from "../assets/CloseIcon.png";
+import HamburgerIcon from "../assets/HamburgerIcon.png";
 
 export {
   bigData,
@@ -46,7 +48,6 @@ export {
   character,
   courage,
   cover,
-  Close,
   curiosity,
   development,
   diversity,
@@ -55,7 +56,6 @@ export {
   fashion,
   films,
   fudlink,
-  Hamburger,
   Instagram,
   LinkedIn,
   mainCharacter,
@@ -82,4 +82,6 @@ export {
   ibia,
   email,
   phone,
+  HamburgerIcon,
+  closeIcon,
 };

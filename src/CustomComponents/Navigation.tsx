@@ -4,8 +4,8 @@ import {
   Instagram,
   Facebook,
   LinkedIn,
-  Hamburger,
-  Close,
+  HamburgerIcon,
+  closeIcon,
 } from "../assets";
 import { motion } from "framer-motion";
 import {
@@ -50,8 +50,12 @@ function Navigation({ navColor }: navigation) {
         </Link>
 
         {/* Hamburger Meno Div */}
-        <img
-          src={toggle ? Close : Hamburger}
+        <motion.img
+          src={toggle ? closeIcon : HamburgerIcon}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.8 }}
           className="w-5 md:hidden block absolute right-8 top-7 transition-all duration-500 cursor-pointer"
           onClick={handleClick}
           alt="Hamburger Menu"

@@ -120,7 +120,10 @@ function ContactSection() {
             className="rounded-lg mb-5 text-black p-1"
           />
           <label>Message</label>
-          <textarea name="message" className="rounded-md h-24 text-black p-1" />
+          <textarea
+            name="message"
+            className="rounded-md h-24 text-black p-1 resize-none"
+          />
           <input
             className="bg-white text-black my-4 cursor-pointer rounded-md py-1 hover:bg-red-600 hover:text-white  transition-all duration-500"
             type="submit"
