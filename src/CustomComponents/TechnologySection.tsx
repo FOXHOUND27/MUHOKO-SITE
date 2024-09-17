@@ -56,14 +56,14 @@ function TechnologySection() {
     <section>
       {/* Main Content Container Div with styles */}
       <div className="hidden md:block">
-        <div className="w-[95%] h-[476px] bg-black technology-radius mt-20 mb-10 mx-auto flex justify-center items-center space-x-10 shadow-2xl">
+        <div className="w-[95%] h-[476px] bg-[#e5e5e5] technology-radius mt-20 mb-10 mx-auto flex justify-center items-center space-x-10 shadow-2xl">
           {/* Div for text */}
           <div data-aos="zoom-out" className="space-y-2 mt-10">
-            <h1 className="w-[500px] text-white text-3xl text-left font-semibold">
+            <h1 className="w-[500px] text-black text-3xl text-left font-semibold">
               We make use of the most innovative technologies to provide our
               clients the highest of quality services{" "}
             </h1>
-            <p className="w-[500px] text-white text-lg">
+            <p className="w-[500px] text-black text-lg">
               Delivering exceptional quality services with cutting-edge
               technologies, ensuring unparalleled client satisfaction through
               innovative solutions and expertise
@@ -71,7 +71,7 @@ function TechnologySection() {
 
             <Link to="/contact">
               {" "}
-              <button className="bg-red-600 mt-2 md:mt-5 text-white py-2 px-5 rounded-lg hover:bg-white hover:text-black  transition-all duration-500">
+              <button className="bg-red-600 mt-2 md:mt-5 text-white py-2 px-5 rounded-lg hover:bg-black hover:text-white  transition-all duration-500">
                 Enquire about our Services
               </button>
             </Link>

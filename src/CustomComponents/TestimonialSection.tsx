@@ -63,7 +63,7 @@ export function TestimonialSection() {
                 <CarouselItem key={index}>
                   <div className="p-1">
                     {/* Carousel Card */}
-                    <Card className=" bg-[#383938] border-none shad">
+                    <Card className=" bg-[#383938] border-none shadow-2xl">
                       {/* Carousel Content */}
                       <CardContent className="flex aspect-square items-center justify-center p-6">
                         <span className="text-4xl font-semibold text-white">
