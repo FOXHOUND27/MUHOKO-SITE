@@ -27,7 +27,7 @@ function MuhokoDepartmentsText() {
           </p>
           <p
             data-aos="zoom-out"
-            className="text-black w-[80%] text-center text-sm md:text-base"
+            className="text-black w-[80%] text-justify text-sm md:text-base"
           >
             Each department within Muhoko functions as a separate entity, with
             its own specific goals, responsibilities, and areas of expertise.
