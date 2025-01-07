@@ -38,7 +38,7 @@ function DepartmentCard() {
 
             <p
               data-aos="zoom-out"
-              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center"
+              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-justify"
             >
               Muhoko Technology began with a simple belief in serving people who
               use machines. The Company believes that by taking time to
@@ -74,7 +74,7 @@ function DepartmentCard() {
 
             <p
               data-aos="zoom-out"
-              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-center"
+              className="w-[90%] my-2 md:my-5 py-2 md:py-0 text-justify"
             >
               Muhoko Studio is a division of Muhoko that is dedicated to quality
               game-making, creative graphical representations such as animations

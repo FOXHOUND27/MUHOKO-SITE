@@ -59,11 +59,11 @@ function TechnologySection() {
         <div className="w-[95%] h-[476px] bg-[#e5e5e5] technology-radius mt-20 mb-10 mx-auto flex justify-center items-center space-x-10 shadow-2xl">
           {/* Div for text */}
           <div data-aos="zoom-out" className="space-y-2 mt-10">
-            <h1 className="w-[500px] text-black text-3xl text-left font-semibold">
+            <h1 className="w-[500px] text-black text-3xl text-justify font-semibold">
               We make use of the most innovative technologies to provide our
               clients the highest of quality services{" "}
             </h1>
-            <p className="w-[500px] text-black text-lg">
+            <p className="w-[500px] text-black text-lg text-justify">
               Delivering exceptional quality services with cutting-edge
               technologies, ensuring unparalleled client satisfaction through
               innovative solutions and expertise
@@ -91,11 +91,11 @@ function TechnologySection() {
 
       <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative  mt-10">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-2xl w-[90%] text-center font-semibold">
+          <h1 className="text-2xl w-[90%] text-justify font-semibold">
             We make use of the most innovative technologies to provide our
             clients the highest of quality services
           </h1>
-          <p className="w-[80%] text-center text-sm font-medium my-2 mx-auto">
+          <p className="w-[80%] text-justify text-sm font-medium my-2 mx-auto">
             Delivering exceptional quality services with cutting-edge
             technologies, ensuring unparalleled client satisfaction through
             innovative solutions and expertise

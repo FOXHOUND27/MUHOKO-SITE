@@ -8,6 +8,8 @@ import {
   NTTS,
   intraHealth,
   gerApp,
+  ngandu,
+  Nanso,
 } from "../assets/index";
 
 import { motion } from "framer-motion";
@@ -60,8 +62,9 @@ function Partners() {
                   scale: 0.8,
                   borderRadius: "100%",
                 }}
-                src={fudlink}
-                alt="fudlink"
+                className="w-20"
+                src={Nanso}
+                alt="Nanso"
               />
             </div>
 
@@ -122,7 +125,7 @@ function Partners() {
                   scale: 0.8,
                 }}
                 src={OTESA}
-                className="w-28 h-20"
+                className="w-28 h-auto"
                 alt="Otesa"
               />
             </div>
@@ -166,8 +169,8 @@ function Partners() {
                 whileTap={{
                   scale: 0.8,
                 }}
-                src={gerApp}
-                className="w-44"
+                src={ngandu}
+                className="w-20"
                 alt="gerApp"
               />
             </div>

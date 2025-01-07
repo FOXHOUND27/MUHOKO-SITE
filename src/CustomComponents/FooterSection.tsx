@@ -18,7 +18,7 @@ function FooterSection() {
           <a href="https://www.facebook.com/muhoko.group/" target="_blank">
             <img src={Facebook} alt="Facebook" />
           </a>
-          <a href="https://www.instagram.com/muhoko_group/" target="_blank">
+          <a href="https://www.instagram.com/muhoko_studio/" target="_blank">
             <img src={Instagram} alt="Instagram" />
           </a>
           <a href="https://www.youtube.com/@migptyltd1034" target="_blank">
@@ -77,7 +77,7 @@ function FooterSection() {
               target="_blank"
               className="text-white hover:text-[#ED2330] transition-all duration-700"
             >
-              IntraHealth
+              IntraHealth Namibia
             </a>
           </li>
           <li>
@@ -86,7 +86,7 @@ function FooterSection() {
               target="_blank"
               className="text-white hover:text-[#ED2330] transition-all duration-700"
             >
-              Mekenficent
+              Mekenificent Spa & Restaurant
             </a>
           </li>
           <li>
@@ -95,7 +95,7 @@ function FooterSection() {
               target="_blank"
               className="text-white hover:text-[#ED2330] transition-all duration-700"
             >
-              Windhoek Fashion Week
+              MTC Windhoek Fashion Week
             </a>
           </li>
 
@@ -105,7 +105,7 @@ function FooterSection() {
               target="_blank"
               className="text-white hover:text-[#ED2330] transition-all duration-700"
             >
-              NTTS
+              NTTS Namibia
             </a>
           </li>
         </ul>

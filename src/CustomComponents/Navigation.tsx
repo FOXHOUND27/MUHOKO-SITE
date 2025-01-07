@@ -99,7 +99,10 @@ function Navigation({ navColor }: navigation) {
           <li className="md:hidden block my-2">
             <div className="flex space-x-2 justify-center">
               {" "}
-              <a href="https://www.instagram.com/muhoko_group/" target="_blank">
+              <a
+                href="https://www.instagram.com/muhoko_studio/"
+                target="_blank"
+              >
                 <img src={Instagram} alt="instagram" />
               </a>
               <a href="https://www.facebook.com/muhoko.group/" target="_blank">
@@ -119,7 +122,7 @@ function Navigation({ navColor }: navigation) {
         {/* Social links */}
 
         <div className="hidden md:flex md:space-x-3">
-          <a href="https://www.instagram.com/muhoko_group/" target="_blank">
+          <a href="https://www.instagram.com/muhoko_studio/" target="_blank">
             <img src={Instagram} alt="instagram" />
           </a>
           <a href="https://www.facebook.com/muhoko.group/" target="_blank">

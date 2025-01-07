@@ -39,7 +39,7 @@ function AboutValues() {
 
           <h1 className="text-white text-sm md:text-lg my-1">Curiosity</h1>
 
-          <p className="text-white text-xs md:text-base text-center">
+          <p className="text-white text-xs md:text-base text-justify">
             Our curiosity is our most valuable asset. It allows the
             encouragement of innovation and creativity to think differently with
             our stakeholders and clients.
@@ -59,7 +59,7 @@ function AboutValues() {
 
           <h1 className="text-white text-sm md:text-lg my-1">Diversity</h1>
 
-          <p className="text-white text-xs md:text-base text-center">
+          <p className="text-white text-xs md:text-base text-justify">
             Every dream is different, and so is every client we strive for
             excellence and distinction in serving our clients to achieve their
             respective objectives.
@@ -79,7 +79,7 @@ function AboutValues() {
 
           <h1 className="text-white text-sm md:text-lg my-1">Courage</h1>
 
-          <p className="text-white text-xs md:text-base text-center">
+          <p className="text-white text-xs md:text-base text-justify">
             We have the courage and we commit our collective experience as an
             organization as well as Research and Development to build our
             clients dreams.

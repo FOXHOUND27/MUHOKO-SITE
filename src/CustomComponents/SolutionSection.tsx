@@ -43,7 +43,7 @@ function SolutionSection() {
             className="flex flex-col items-center mt-20 absolute right-16"
           >
             <h1 className="text-5xl font-semibold">Solutions</h1>
-            <p className="w-[430px] text-center font-medium">
+            <p className="w-[430px] font-medium text-justify">
               We deliver cutting-edge custom software development, immersive
               game development, dynamic web development, and a full spectrum of
               IT solutions and services tailored to meet the unique needs of our
@@ -64,7 +64,7 @@ function SolutionSection() {
 
               <h1 className="text-white text-lg my-1">Web Development</h1>
 
-              <p className="text-white text-center">
+              <p className="text-white text-justify">
                 We specialize in creating custom websites that are visually
                 appealing, highly functional, and optimized for performance.
               </p>
@@ -84,7 +84,7 @@ function SolutionSection() {
                 Software & App Development
               </h1>
 
-              <p className="text-white text-center">
+              <p className="text-white text-justify">
                 We specialize in creating custom software applications and
                 mobile apps that are intuitive, scalable, and secure
               </p>
@@ -100,7 +100,7 @@ function SolutionSection() {
               {" "}
               <img src={gameDev} className="w-[52px]" alt="game dev icon" />
               <h1 className="text-white text-lg my-1">Game Development</h1>
-              <p className="text-white text-center">
+              <p className="text-white text-justify">
                 We specialize in creating high-quality video games that
                 captivate players of all ages. From concept design and level
                 creation to game mechanics and more.
@@ -117,7 +117,7 @@ function SolutionSection() {
                 alt="character dev icon"
               />
               <h1 className="text-white text-lg my-1">Character Development</h1>
-              <p className="text-white text-center">
+              <p className="text-white text-justify">
                 We specialize in crafting custom character designs that are
                 visually stunning, meticulously detailed, and optimized for
                 performance across various platforms.
@@ -140,7 +140,7 @@ function SolutionSection() {
           {/* Solutions Text */}
           <div className="flex flex-col items-center mt-20 py-3">
             <h1 className="text-2xl font-semibold">Solutions</h1>
-            <p className="w-[80%] text-center text-xs font-medium">
+            <p className="w-[80%] text-justify text-xs font-medium">
               We deliver cutting-edge custom software development, immersive
               game development, dynamic web development, and a full spectrum of
               IT solutions and services tailored to meet the unique needs of our
@@ -155,7 +155,7 @@ function SolutionSection() {
             {" "}
             <img src={websites} className="w-[32px]" alt="character dev icon" />
             <h1 className="text-white text-[10px] my-1">Web Development</h1>
-            <p className="text-white text-center text-[6px]">
+            <p className="text-white text-justify text-[6px]">
               We specialize in creating custom websites that are visually
               appealing, highly functional, and optimized for performance.
             </p>
@@ -171,7 +171,7 @@ function SolutionSection() {
             <h1 className="text-white text-[10px] my-1">
               Software & App Development
             </h1>
-            <p className="text-white text-center text-[6px]">
+            <p className="text-white text-justify text-[6px]">
               We specialize in creating custom software applications and mobile
               apps that are intuitive, scalable, and secure
             </p>
@@ -181,7 +181,7 @@ function SolutionSection() {
             {" "}
             <img src={gameDev} className="w-[32px]" alt="character dev icon" />
             <h1 className="text-white text-[10px] my-1">Game Development</h1>
-            <p className="text-white text-center text-[6px]">
+            <p className="text-white text-justify text-[6px]">
               We specialize in creating high-quality video games that captivate
               players of all ages. From concept design and level creation to
               game mechanics and post-production,
@@ -196,7 +196,7 @@ function SolutionSection() {
               alt="character dev icon"
             />
             <h1 className="text-white text-[10px] my-1">Character Design</h1>
-            <p className="text-white text-center text-[6px]">
+            <p className="text-white text-justify text-[6px]">
               We specialize in creating custom websites that are visually
               appealing, highly functional, and optimized for performance.
             </p>

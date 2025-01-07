@@ -30,7 +30,7 @@ function AboutMission() {
           </h1>
           <p
             data-aos="zoom-out"
-            className="text-white w-[90%] text-justify md:text-center font-medium"
+            className="text-white w-[90%] text-left md:text-center font-medium"
           >
             Our MISSION is to build strong relationships with our clients and
             stakeholders, using our services to help them achieve their goals.

@@ -23,14 +23,14 @@ function InfoCardSection() {
         <div className="w-[80%] h-auto relative flex justify-center items-center flex-row-reverse left-[95px] ">
           {/* Info Text */}
           <div data-aos="zoom-out" className="mx-10">
-            <h1 className="text-4xl w-[400px] text-left font-semibold">
+            <h1 className="text-4xl w-[400px] text-justify font-semibold">
               Leading the Future of Technology in Africa
             </h1>
-            <p className="w-[400px] text-left text-base font-medium my-2">
+            <p className="w-[400px] text-justify text-base font-medium my-2">
               Muhoko Innovation Studio is a pioneering technology company based
               in Namibia, dedicated to delivering cutting-edge AI and futuristic
               technology solutions. With a mission to provide quality technology
-              services tailored to the unique needs of each client
+              services tailored to the unique needs of each client.
             </p>
             <Link to="/about">
               <button className=" bg-black text-white hover:bg-red-600 hover:text-white transition-all duration-500 ease-in-out px-10 py-2 rounded-lg mt-1">
@@ -66,10 +66,10 @@ function InfoCardSection() {
       {/* Mobile version of section */}
       <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative ">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-2xl w-[300px] text-center font-semibold">
+          <h1 className="text-2xl w-[300px] text-justify font-semibold">
             Leading the Future of Technology in Africa
           </h1>
-          <p className="w-[80%] text-center text-sm font-medium my-2 mx-auto">
+          <p className="w-[80%] text-justify text-sm font-medium my-2 mx-auto">
             Muhoko Innovation Studio is a pioneering technology company based in
             Namibia, dedicated to delivering cutting-edge AI and futuristic
             technology solutions. With a mission to provide quality technology
