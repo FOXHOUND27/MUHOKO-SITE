@@ -27,7 +27,7 @@ function MuhokoStudioCards() {
       {/* Cards container */}
       <div className="w-full h-auto pt-0 md:pt-8 flex flex-col space-y-5 md:space-y-20 justify-center items-center mb-10 md:mb-20">
         {/* Service Card 1 */}
-        <div className="w-[90%] md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-56 flex flex-col md:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md md:rounded-none  md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] py-0 md:py-4 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-56 flex flex-col lg:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md lg:rounded-none  lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={gameDev}
@@ -46,7 +46,7 @@ function MuhokoStudioCards() {
         </div>
 
         {/* Service Card 2 */}
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-[260px] bg-studio-gradient flex flex-col md:flex-row justify-center items-center bg-black rounded-md md:rounded-none md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] pt-0 py-0 md:py-4 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-[260px] bg-studio-gradient flex flex-col lg:flex-row justify-center items-center bg-black rounded-md lg:rounded-none lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={character}
@@ -66,7 +66,7 @@ function MuhokoStudioCards() {
 
         {/* Service Card 3 */}
 
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-[300px] flex flex-col md:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md md:rounded-none md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] pt-0 py-0 md:py-4 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-[300px] flex flex-col lg:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md lg:rounded-none lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={films}
@@ -86,11 +86,11 @@ function MuhokoStudioCards() {
 
         {/* Service Card 4 */}
 
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-0 flex flex-col md:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md md:rounded-none md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] pt-0 py-0 md:py-4 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-0 flex flex-col lg:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md lg:rounded-none lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={ibia}
-            className="w-32 ml-0 md:ml-16 md:w-96 mt-4 md:mt-0"
+            className="w-32 md:w-52 ml-0 lg:ml-16 lg:w-96 mt-4 lg:mt-0"
             alt="Logo"
           />
           {/* Text Div */}
@@ -103,7 +103,7 @@ function MuhokoStudioCards() {
             </h1>
             <p
               data-aos="zoom-out"
-              className="text-white w-[60%] text-center md:text-justify mb-5 md:mb-0"
+              className="text-white w-[60%] text-justify text-xl mb-5 md:mb-0"
             >
               A Namibian streaming service that offers a wide variety of movies
               series, live TV and more on internet connected devices.

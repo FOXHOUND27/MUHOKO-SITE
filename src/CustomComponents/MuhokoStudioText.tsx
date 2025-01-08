@@ -29,7 +29,7 @@ function MuhokoStudioText() {
 
         <p
           data-aos="zoom-out"
-          className="text-black w-[80%] text-justify md:text-center text-xs md:text-base"
+          className="text-black w-[80%] text-justify text-xl"
         >
           Muhoko Studio is a division of Muhoko that is dedicated to bringing
           quality game-making, creative graphical representations such as

@@ -21,9 +21,9 @@ function DepartmentCard() {
     <>
       <section>
         {/* Card 1 */}
-        <div className="flex flex-col md:flex-row bg-black text-white w-[80%] mx-auto my-5 rounded-xl ">
+        <div className="flex flex-col lg:flex-row bg-black text-white lg:w-[80%] w-[90%] mx-auto my-5 rounded-xl ">
           <img
-            className="object-cover w-full  md:rounded-tl-xl md:rounded-bl-xl md:rounded-tr-none rounded-tl-xl rounded-tr-xl"
+            className="object-cover lg:w-[60%] w-full  lg:rounded-tl-xl lg:rounded-bl-xl lg:rounded-tr-none rounded-tl-xl rounded-tr-xl"
             src={MuhokoTechnology}
             alt="logo"
           />
@@ -57,9 +57,9 @@ function DepartmentCard() {
         </div>
 
         {/* Card 2 */}
-        <div className="flex flex-col md:flex-row bg-black text-white w-[80%] mx-auto my-5 rounded-xl ">
+        <div className="flex flex-col lg:flex-row bg-black text-white lg:w-[80%] w-[90%] mx-auto my-5 rounded-xl ">
           <img
-            className="object-cover h-[186px] md:h-auto  w-full md:w-[373.7px] md:rounded-tl-xl md:rounded-bl-xl rounded-tl-xl rounded-tr-xl md:rounded-tr-none"
+            className="object-cover h-[230px] lg:h-auto  w-full lg:w-[32%] lg:rounded-tl-xl lg:rounded-bl-xl rounded-tl-xl rounded-tr-xl lg:rounded-tr-none"
             src={muhokoStudio}
             alt=""
           />

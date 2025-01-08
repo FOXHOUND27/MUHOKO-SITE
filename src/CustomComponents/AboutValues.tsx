@@ -17,10 +17,10 @@ function AboutValues() {
   }, []);
 
   return (
-    <section className="md:my-10 md:mt-0 mt-52 overflow-hidden">
+    <section className="md:my-10 pt-0 md:pt-4 md:mt-0 mt-52 overflow-hidden">
       <h1
         data-aos="zoom-out"
-        className="text-center text-5xl font-semibold mb-4"
+        className="text-center text-5xl font-semibold my-4"
       >
         Our Values
       </h1>

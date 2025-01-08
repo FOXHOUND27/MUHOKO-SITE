@@ -19,7 +19,7 @@ function AboutMission() {
   return (
     <section>
       {/* Container Div */}
-      <div className="w-[90%] h-[344px] md:h-auto md:p-5  bg-black mx-auto mt-10 md:mt-16 mb-5 md:mb-10 rounded-md shadow-2xl flex lg:flex-row flex-col">
+      <div className="w-[90%] h-[344px] md:h-auto md:p-5 pt-0  bg-black mx-auto mt-10 md:mt-16 mb-5 md:mb-10 rounded-md shadow-2xl flex lg:flex-row flex-col">
         {/* Text Div */}
         <div className="text-center w-full flex justify-center items-center flex-col my-3 md:my-0">
           <h1
@@ -44,7 +44,7 @@ function AboutMission() {
         {/* Image  */}
         <img
           src={TEAM}
-          className="md:rounded-tr-md md:rounded-br-md rounded-br-md rounded-bl-md md:hidden"
+          className="md:rounded-tr-md md:rounded-br-md rounded-br-md rounded-bl-md lg:block md:hidden h-[355px]"
           alt="Team"
         />
       </div>

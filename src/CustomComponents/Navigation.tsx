@@ -30,7 +30,7 @@ function Navigation({ navColor }: navigation) {
 
   return (
     <nav
-      className={`py-4 w-full ${navColor}    shadow-2xl fixed top-0 left-0 z-50`}
+      className={`py-5 w-full ${navColor}    shadow-2xl fixed top-[-2px] left-0 z-50`}
     >
       <div className="container h-full w-full md:flex md:justify-around md:items-center">
         {/* Logo */}
@@ -40,7 +40,6 @@ function Navigation({ navColor }: navigation) {
             whileHover={{ scale: 1.2 }}
             whileTap={{
               scale: 0.5,
-              rotate: -90,
               borderRadius: "100%",
             }}
             src={brand}
@@ -62,7 +61,7 @@ function Navigation({ navColor }: navigation) {
         />
         {/* Navigation Items */}
         <ul
-          className={`md:flex md:items-center md:text-lg overflow-hidden text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-[#242424] md:bg-transparent md:z-10 left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
+          className={`md:flex md:items-center md:text-lg overflow-hidden text-white space-x-3 md:pb-0 pb-4 md:pt-0 pt-4 absolute md:static bg-black md:bg-transparent md:z-10 left-10 shadow-2xl rounded-lg w-[80%] md:w-auto text-center transition-all duration-500 ease-in ${
             toggle ? "top-20" : "top-[-490px]"
           }`}
         >

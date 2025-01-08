@@ -18,7 +18,7 @@ function ContactSection() {
   return (
     <section>
       {/*Desktop Contact Form Container */}
-      <div className="w-[85%] h-[685px] hidden md:block bg-[#D9D9D9] mx-auto mt-10 rounded-[100px] shadow-2xl mb-10 relative">
+      <div className="w-[85%] h-[685px] hidden lg:block bg-[#D9D9D9] mx-auto mt-10 rounded-[100px] shadow-2xl mb-10 relative">
         {/* Gradient Div on right */}
         <div className="h-full w-[20%] bg-black ml-auto rounded-tr-[100px] rounded-br-[100px]"></div>
         {/* Gradient Div ending */}
@@ -73,7 +73,7 @@ function ContactSection() {
                 {/* Phone Text */}
                 <div className="text-white ml-2">
                   <h1>PHONE</h1>
-                  <h1>0810000000</h1>
+                  <h1>+264 85 733 4814 </h1>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ function ContactSection() {
         </div>
       </div>
       {/* Mobile version of Contact Form */}
-      <div className=" w-[85%] bg-black rounded-md py-5 px-4 mt-5 h-auto md:h-[400px] block md:hidden  mx-auto shadow-2xl relative ">
+      <div className=" w-[85%] bg-black rounded-md py-5 px-4 mt-5 h-auto md:h-auto mb-10 block lg:hidden  mx-auto shadow-2xl relative ">
         {/* Contact Text Div */}
         <div className="block md:hidden">
           <h1 className="text-2xl font-semibold text-white">
@@ -141,7 +141,7 @@ function ContactSection() {
               {/* Phone Text */}
               <div className="text-white ml-2">
                 <h1>PHONE</h1>
-                <h1>0810000000</h1>
+                <h1>+264 85 733 4814</h1>
               </div>
             </div>
           </div>
