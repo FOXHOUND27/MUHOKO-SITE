@@ -28,7 +28,7 @@ function MuhokoTechnologyServices() {
       {/* Cards container */}
       <div className="w-full h-auto pt-0 md:pt-8 flex flex-col space-y-5 md:space-y-20 mb-10 md:mb-20 justify-center items-center ">
         {/* Service Card 1 */}
-        <div className="w-[90%] md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-40 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:py-4 md:w-[90%] h-auto lg:h-[285px] space-x-0 lg:space-x-40 flex flex-col lg:flex-row justify-center items-center  bg-black rounded-md lg:rounded-none bg-service-gradient lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={websites}
@@ -64,7 +64,7 @@ function MuhokoTechnologyServices() {
         </div>
 
         {/* Service Card 2 */}
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-24 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:py-4 pt-0 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-24 flex flex-col lg:flex-row justify-center items-center  bg-black rounded-md lg:rounded-none bg-service-gradient lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={development}
@@ -98,7 +98,7 @@ function MuhokoTechnologyServices() {
         </div>
 
         {/* Service Card 3 */}
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-40 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:py-4 pt-0 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-40 flex flex-col lg:flex-row justify-center items-center  bg-black rounded-md lg:rounded-none bg-service-gradient lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={ERP}
@@ -127,7 +127,7 @@ function MuhokoTechnologyServices() {
         </div>
 
         {/* Service Card 4 */}
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-24 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:py-4 pt-0 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-24 flex flex-col lg:flex-row justify-center items-center  bg-black rounded-md lg:rounded-none bg-service-gradient lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={bigData}
@@ -160,7 +160,7 @@ function MuhokoTechnologyServices() {
         </div>
 
         {/* Service Card 4 */}
-        <div className="w-[90%] pt-0 md:pt-8 md:w-[85%] h-auto md:h-[285px] space-x-0 md:space-x-24 flex flex-col md:flex-row justify-center items-center  bg-black rounded-md md:rounded-none bg-service-gradient md:rounded-tl-[120px] md:rounded-br-[120px] shadow-2xl">
+        <div className="w-[90%] md:py-4 pt-0 md:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-24 flex flex-col lg:flex-row justify-center items-center  bg-black rounded-md lg:rounded-none bg-service-gradient lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
           <img
             data-aos="zoom-out"
             src={robot}

@@ -1,22 +1,9 @@
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
-import { Card, CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Reviews } from "../assets/index";
 
 export function TestimonialSection() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
-
   // initializing aos
   useEffect(() => {
     AOS.init({
@@ -48,37 +35,13 @@ export function TestimonialSection() {
               services have to say about their experience.
             </p>
           </div>
-
-          {/* ShadCn carousel UI component */}
-          <Carousel
-            plugins={[plugin.current]}
-            className="w-full max-w-sm mx-auto"
-            onMouseEnter={plugin.current.stop}
-            onMouseLeave={plugin.current.reset}
-          >
-            {/* Carousel Content */}
-            <CarouselContent>
-              {Array.from({ length: 5 }).map((_, index) => (
-                // Carousel Item
-                <CarouselItem key={index}>
-                  <div className="p-1">
-                    {/* Carousel Card */}
-                    <Card className=" bg-[#383938] border-none shadow-2xl">
-                      {/* Carousel Content */}
-                      <CardContent className="flex aspect-square items-center justify-center p-6 flex-col">
-                        <span className="text-base font-semibold text-white">
-                          {index + 1}
-                        </span>
-                      </CardContent>
-                    </Card>
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-            {/* Carousel Arrows */}
-            <CarouselPrevious className=" text-white p-2 w-10 bg-muhoko-gradient hover:text-[#ED2330]" />
-            <CarouselNext className=" text-white w-10 p-2 bg-muhoko-gradient hover:text-[#ED2330]" />
-          </Carousel>
+          {/* Review Icon */}
+          <div>
+            <a href="https://g.page/r/CY8VV00xOAI3EAE/review" target="_blank">
+              {" "}
+              <img src={Reviews} className="rounded-lg" alt="reviews image" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
