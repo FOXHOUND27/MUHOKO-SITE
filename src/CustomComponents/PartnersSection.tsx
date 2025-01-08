@@ -53,60 +53,71 @@ function Partners() {
               data-aos="zoom-out"
               className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                  borderRadius: "100%",
-                }}
-                className="w-20"
-                src={Nanso}
-                alt="Nanso"
-              />
+              <a href="https://www.nanso.org/" target="_blank">
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                    borderRadius: "100%",
+                  }}
+                  className="w-20"
+                  src={Nanso}
+                  alt="Nanso"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={mekenficent}
-                alt="mekenficent"
-              />
+              <a href="https://mekenificent.com/" target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={mekenficent}
+                  alt="mekenficent"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                  borderRadius: "100%",
-                }}
-                src={NUST}
-                alt="NUST"
-              />
+              <a href="https://www.nust.na/" target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                    borderRadius: "100%",
+                  }}
+                  src={NUST}
+                  alt="NUST"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={fashion}
-                className="w-14"
-                alt="Fashion"
-              />
+              <a href="https://whkfashionweek.com/" target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={fashion}
+                  className="w-14"
+                  alt="Fashion"
+                />
+              </a>
             </div>
           </div>
 
