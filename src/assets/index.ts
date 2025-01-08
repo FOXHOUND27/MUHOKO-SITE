@@ -42,6 +42,7 @@ import phone from "../assets/phone.svg";
 import closeIcon from "../assets/CloseIcon.png";
 import HamburgerIcon from "../assets/HamburgerIcon.png";
 import Nanso from "../assets/Nanso.jpeg";
+import Reviews from "../assets/Reviews.jpg";
 
 export {
   bigData,
@@ -86,4 +87,5 @@ export {
   HamburgerIcon,
   closeIcon,
   Nanso,
+  Reviews,
 };

@@ -1,13 +1,11 @@
 import "../CSS/Styles.css";
 import {
-  fudlink,
   mekenficent,
   NUST,
   fashion,
   OTESA,
   NTTS,
   intraHealth,
-  gerApp,
   ngandu,
   Nanso,
 } from "../assets/index";
@@ -33,28 +31,27 @@ function Partners() {
 
   return (
     <section className="container">
-      <div className=" w-full md:w-[85%] h-[300px] md:h-[400px] hidden md:block bg-[#e5e5e5] partner-radius mx-auto my-20 shadow-2xl">
+      <div className="w-full lg:w-[85%]  h-auto lg:h-[400px] hidden md:block bg-[#e5e5e5] partner-radius md:rounded-sm mx-auto my-20 shadow-2xl lg:py-0 md:py-10 sm:py-0">
         {/* Div containing title and subtitle text */}
         <div
           data-aos="zoom-out"
-          className="md:text-center text-center py-6 md:px-0 relative z-[2]"
+          className="text-center py-6 px-4 md:px-0 relative z-[2]"
         >
-          <h1 className="md:text-2xl text-xs font-semibold">
+          <h1 className="text-base md:text-2xl font-semibold">
             Our Partners and Collaborations
           </h1>
-          <p className="md:text-lg text-xs md:w-auto w-[80%] text-[#716E6F] font-medium md:mx-0 mx-auto">
-            Companies We Currently Work With and Have Partnered With in the Past{" "}
+          <p className="text-xs md:text-lg text-[#716E6F] font-medium w-[90%] md:w-auto mx-auto">
+            Companies We Currently Work With and Have Partnered With in the Past
           </p>
         </div>
 
-        {/*Desktop  Div containing brands */}
-        <div className="flex items-center flex-col space-y-8">
-          {/* row 1 container */}
-
-          <div className="flex space-x-4">
+        {/* Desktop Div containing brands */}
+        <div className="flex flex-col space-y-8 items-center px-4 md:px-0">
+          {/* Row 1 container */}
+          <div className="flex flex-wrap justify-center gap-4">
             <div
               data-aos="zoom-out"
-              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -70,7 +67,7 @@ function Partners() {
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2"
+              className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -84,7 +81,7 @@ function Partners() {
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -99,7 +96,7 @@ function Partners() {
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -114,10 +111,10 @@ function Partners() {
           </div>
 
           {/* Row 2 */}
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <div
               data-aos="zoom-out"
-              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -132,7 +129,7 @@ function Partners() {
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -147,7 +144,7 @@ function Partners() {
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -156,13 +153,13 @@ function Partners() {
                 }}
                 src={intraHealth}
                 className="w-32"
-                alt="NUST"
+                alt="IntraHealth"
               />
             </div>
 
             <div
               data-aos="zoom-out"
-              className="h-20 w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
+              className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
               <motion.img
                 whileHover={{ scale: 1.5 }}
@@ -171,7 +168,7 @@ function Partners() {
                 }}
                 src={ngandu}
                 className="w-20"
-                alt="gerApp"
+                alt="Ngandu"
               />
             </div>
           </div>
@@ -195,7 +192,7 @@ function Partners() {
           {/*Brands Mobile Column */}
           <div className="flex space-y-4 flex-col">
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={fudlink} className="w-20" alt="fudlink" />
+              <img src={Nanso} className="w-16" alt="Nanso" />
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2">
@@ -223,7 +220,7 @@ function Partners() {
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={gerApp} className="w-44" alt="gerApp" />
+              <img src={ngandu} className="w-20" alt="Ngandu" />
             </div>
           </div>
         </div>

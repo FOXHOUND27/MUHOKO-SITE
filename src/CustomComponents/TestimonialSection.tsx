@@ -31,7 +31,7 @@ export function TestimonialSection() {
 
   return (
     <section>
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         {/* Carousel Container and Styles */}
         <div className="w-[85%] h-auto p-10 bg-black mx-auto flex flex-col justify-center items-center mt-32 mb-20 rounded-[49px] shadow-2xl">
           {/* Text Div */}

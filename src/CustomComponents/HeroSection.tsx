@@ -19,9 +19,9 @@ function HeroSection() {
   }, []);
 
   return (
-    <section data-aos="zoom-in" className="md:h-[73vh] h-[25vh]">
+    <section data-aos="zoom-in" className="lg:h-[73vh] h-[30vh]">
       {/* Text ontainer and styles */}
-      <div className="md:absolute md:block hidden top-48 left-20 pt-32 md:pt-0 pl-14 bg-transparent">
+      <div className="md:absolute lg:block hidden top-48 left-20 pt-32 md:pt-0 pl-14 bg-transparent">
         {/* Title text */}
         <h1 className="md:text-4xl text-2xl font-semibold md:text-left">
           Transforming Visions into Reality <br /> with Innovative Technology
@@ -39,8 +39,12 @@ function HeroSection() {
       </div>
 
       {/* div for mobile hero */}
-      <div className="md:hidden block">
-        <img src={cover} className="h-64 object-cover" alt="hero image" />
+      <div className="lg:hidden block">
+        <img
+          src={cover}
+          className="h-80 object-cover w-full"
+          alt="hero image"
+        />
       </div>
     </section>
   );

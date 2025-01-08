@@ -22,6 +22,18 @@ body {
   border-bottom-right-radius: 300px;
 }
 
+@media (min-width: 1024px) {
+  /* Tailwind's `lg` breakpoint */
+  .solutions-radius {
+    -webkit-border-top-left-radius: 300px;
+    -webkit-border-bottom-right-radius: 300px;
+    -moz-border-radius-topleft: 300px;
+    -moz-border-radius-bottomright: 300px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+  }
+}
+
 .technology-radius {
   -webkit-border-top-left-radius: 150px;
   -webkit-border-bottom-right-radius: 150px;

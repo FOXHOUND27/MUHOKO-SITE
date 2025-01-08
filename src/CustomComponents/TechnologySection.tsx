@@ -55,7 +55,7 @@ function TechnologySection() {
   return (
     <section>
       {/* Main Content Container Div with styles */}
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <div className="w-[95%] h-[476px] bg-[#e5e5e5] technology-radius mt-20 mb-10 mx-auto flex justify-center items-center space-x-10 shadow-2xl">
           {/* Div for text */}
           <div data-aos="zoom-out" className="space-y-2 mt-10">
@@ -89,16 +89,16 @@ function TechnologySection() {
 
       {/* Mobile version of Technology Section */}
 
-      <div className="w-[85%] py-5 h-auto md:h-[400px] block md:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative  mt-10">
+      <div className="w-[80%] py-5 h-auto md:mb-5 lg:h-[400px] block lg:hidden bg-[#e5e5e5]  mx-auto shadow-2xl relative  mt-10">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-2xl w-[90%] text-justify font-semibold">
+          <h1 className="text-2xl w-[80%]  text-justify font-semibold">
             We make use of the most innovative technologies to provide our
             clients the highest of quality services
           </h1>
-          <p className="w-[80%] text-justify text-sm font-medium my-2 mx-auto">
+          <p className="w-[80%] text-justify text-base text-pretty font-medium my-2 mx-auto">
             Delivering exceptional quality services with cutting-edge
             technologies, ensuring unparalleled client satisfaction through
-            innovative solutions and expertise
+            innovative solutions and expertise.
           </p>
           <button className="bg-black text-white py-2 px-5 rounded-lg hover:bg-white hover:text-black  transition-all duration-500">
             Enquire about our Services
