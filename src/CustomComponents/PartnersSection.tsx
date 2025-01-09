@@ -127,60 +127,71 @@ function Partners() {
               data-aos="zoom-out"
               className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={OTESA}
-                className="w-28 h-auto"
-                alt="Otesa"
-              />
+              <a href="https://www.otesa.com.na/" target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={OTESA}
+                  className="w-28 h-auto"
+                  alt="Otesa"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={NTTS}
-                className="w-16"
-                alt="NTTS"
-              />
+              <a href="https://nttsnamibia.com/" target="_blank">
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={NTTS}
+                  className="w-16"
+                  alt="NTTS"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-44 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={intraHealth}
-                className="w-32"
-                alt="IntraHealth"
-              />
+              <a href="https://www.intrahealthnamibia.org/ " target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={intraHealth}
+                  className="w-32"
+                  alt="IntraHealth"
+                />
+              </a>
             </div>
 
             <div
               data-aos="zoom-out"
               className="h-20 w-40 md:w-56 bg-white rounded-xl shadow-xl flex justify-center items-center"
             >
-              <motion.img
-                whileHover={{ scale: 1.5 }}
-                whileTap={{
-                  scale: 0.8,
-                }}
-                src={ngandu}
-                className="w-20"
-                alt="Ngandu"
-              />
+              <a href="https://nganduevents.com/" target="_blank">
+                {" "}
+                <motion.img
+                  whileHover={{ scale: 1.5 }}
+                  whileTap={{
+                    scale: 0.8,
+                  }}
+                  src={ngandu}
+                  className="w-20"
+                  alt="Ngandu"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -203,35 +214,57 @@ function Partners() {
           {/*Brands Mobile Column */}
           <div className="flex space-y-4 flex-col">
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={Nanso} className="w-16" alt="Nanso" />
+              <a href="https://www.nanso.org/" target="_blank">
+                <img src={Nanso} className="w-16" alt="Nanso" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center pt-2">
-              <img src={mekenficent} alt="mekenficent" />
+              <a href="https://mekenificent.com/" target="_blank">
+                {" "}
+                <img src={mekenficent} alt="mekenficent" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={NUST} alt="NUST" />
+              <a href="https://www.nust.na/" target="_blank">
+                {" "}
+                <img src={NUST} alt="NUST" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={fashion} className="w-14" alt="Fashion" />
+              <a href="https://whkfashionweek.com/" target="_blank">
+                {" "}
+                <img src={fashion} className="w-14" alt="Fashion" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={OTESA} className="w-28 h-20" alt="Otesa" />
+              <a href="https://www.otesa.com.na/" target="_blank">
+                <img src={OTESA} className="w-28 h-20" alt="Otesa" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={NTTS} className="w-16" alt="NTTS" />
+              <a href="https://nttsnamibia.com/" target="_blank">
+                {" "}
+                <img src={NTTS} className="w-16" alt="NTTS" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={intraHealth} className="w-32" alt="NUST" />
+              <a href="https://www.intrahealthnamibia.org/" target="_blank">
+                {" "}
+                <img src={intraHealth} className="w-32" alt="intrahealth" />
+              </a>
             </div>
 
             <div className="h-20 w-44 bg-white rounded-xl shadow-xl flex justify-center items-center">
-              <img src={ngandu} className="w-20" alt="Ngandu" />
+              <a href="https://nganduevents.com/" target="_blank">
+                {" "}
+                <img src={ngandu} className="w-20" alt="Ngandu" />
+              </a>
             </div>
           </div>
         </div>
