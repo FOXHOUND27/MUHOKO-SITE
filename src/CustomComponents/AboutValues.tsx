@@ -29,17 +29,17 @@ function AboutValues() {
         {/* Card 1 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[80%] h-[260px] w-[350px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
           <img
             src={curiosity}
-            className=" w-[45px] md:w-[52px]"
+            className=" w-16 md:w-20 pt-2"
             alt="websites icon"
           />
 
-          <h1 className="text-white text-sm md:text-lg my-1">Curiosity</h1>
+          <h1 className="text-white text-lg my-1">Curiosity</h1>
 
-          <p className="text-white text-xs md:text-base text-justify">
+          <p className="text-white text-lg text-justify">
             Our curiosity is our most valuable asset. It allows the
             encouragement of innovation and creativity to think differently with
             our stakeholders and clients.
@@ -49,17 +49,13 @@ function AboutValues() {
         {/* Card 2 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[80%] md:h-[260px] w-[350px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
-          <img
-            src={diversity}
-            className="w-[45px] md:w-[52px]"
-            alt="websites icon"
-          />
+          <img src={diversity} className="w-16 md:w-20 " alt="websites icon" />
 
-          <h1 className="text-white text-sm md:text-lg my-1">Diversity</h1>
+          <h1 className="text-white text-lg my-1">Diversity</h1>
 
-          <p className="text-white text-xs md:text-base text-justify">
+          <p className="text-white text-lg text-justify">
             Every dream is different, and so is every client we strive for
             excellence and distinction in serving our clients to achieve their
             respective objectives.
@@ -69,17 +65,13 @@ function AboutValues() {
         {/* Card 3 */}
         <div
           data-aos="fade-up"
-          className="md:w-[400px] md:h-[200px] w-[350px] h-[150px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
+          className="md:w-[80%] h-[260px] w-[350px] bg-black rounded-lg shadow-2xl flex flex-col justify-center items-center p-5"
         >
-          <img
-            src={courage}
-            className="w-[45px] md:w-[52px]"
-            alt="websites icon"
-          />
+          <img src={courage} className="w-16 md:w-20" alt="websites icon" />
 
-          <h1 className="text-white text-sm md:text-lg my-1">Courage</h1>
+          <h1 className="text-white text-lg my-1">Courage</h1>
 
-          <p className="text-white text-xs md:text-base text-justify">
+          <p className="text-white text-lg text-justify">
             We have the courage and we commit our collective experience as an
             organization as well as Research and Development to build our
             clients dreams.

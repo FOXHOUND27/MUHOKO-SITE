@@ -87,12 +87,15 @@ function MuhokoStudioCards() {
         {/* Service Card 4 */}
 
         <div className="w-[90%] pt-0 py-0 md:py-4 lg:pt-8 lg:w-[85%] h-auto lg:h-[285px] space-x-0 lg:space-x-0 flex flex-col lg:flex-row justify-center items-center bg-studio-gradient bg-black rounded-md lg:rounded-none lg:rounded-tl-[120px] lg:rounded-br-[120px] shadow-2xl">
-          <img
-            data-aos="zoom-out"
-            src={ibia}
-            className="w-32 md:w-52 ml-0 lg:ml-16 lg:w-96 mt-4 lg:mt-0"
-            alt="Logo"
-          />
+          <a href="https://www.ibiatv.com/" target="_blank">
+            {" "}
+            <img
+              data-aos="zoom-out"
+              src={ibia}
+              className="w-32 md:w-52 ml-0 lg:ml-16 lg:w-96 mt-4 lg:mt-0"
+              alt="Logo"
+            />
+          </a>
           {/* Text Div */}
           <div className="flex flex-col justify-center items-center">
             <h1
@@ -103,7 +106,7 @@ function MuhokoStudioCards() {
             </h1>
             <p
               data-aos="zoom-out"
-              className="text-white w-[60%] text-justify text-xl mb-5 md:mb-0"
+              className="text-white w-[80%] text-justify text-xl mb-5 md:mb-0"
             >
               A Namibian streaming service that offers a wide variety of movies
               series, live TV and more on internet connected devices.

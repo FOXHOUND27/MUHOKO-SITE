@@ -29,7 +29,7 @@ function MuhokoTechnologyText() {
 
         <p
           data-aos="zoom-out"
-          className="text-black w-[80%] text-justify text-base  md:text-xl"
+          className="text-black w-[80%] text-justify text-lg"
         >
           The company believes that by taking time to understand each client’s
           business and operations, it can build a level of trust and

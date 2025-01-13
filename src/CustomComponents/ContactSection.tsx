@@ -1,7 +1,8 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { phone, email } from "../assets";
+import Swal from "sweetalert2";
 
 function ContactSection() {
   // initializing aos
@@ -15,6 +16,38 @@ function ContactSection() {
     // Refresh AOS to handle new elements dynamically added to the DOM
     AOS.refresh();
   }, []);
+
+  // form API integretion function
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+
+    formData.append("access_key", "b09b3a3e-d313-4e9e-8061-56942c049844");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      Swal.fire({
+        title: "Success !!",
+        text: "Message Sent Succesfully",
+        icon: "success",
+      });
+      event.currentTarget.reset();
+    } else {
+      Swal.fire({
+        title: "Error !!",
+        text: "Something went wrong!",
+        icon: "error",
+      });
+    }
+  };
+
   return (
     <section>
       {/*Desktop Contact Form Container */}
@@ -36,24 +69,30 @@ function ContactSection() {
             </p>
 
             {/* Contact Form */}
-            <form action="#" className="text-white  flex flex-col mt-10">
+            <form
+              onSubmit={handleSubmit}
+              className="text-white  flex flex-col mt-10"
+            >
               {" "}
               <label>Name</label>
               <input
                 type="text"
                 name="name"
                 className="rounded-md mb-2 text-black p-1"
+                required
               />
               <label>Email</label>
               <input
                 type="email"
                 name="email"
+                required
                 className="rounded-lg mb-5 text-black p-1"
               />
               <label>Message</label>
               <textarea
                 name="message"
                 className="rounded-md h-24 text-black p-1"
+                required
               />
               <input
                 className="bg-white text-black my-4 cursor-pointer rounded-md py-1 hover:bg-red-600 hover:text-white  transition-all duration-500"
@@ -105,23 +144,26 @@ function ContactSection() {
           </p>
         </div>
         {/* Contact Form */}
-        <form action="#" className="text-white flex flex-col mt-2">
+        <form onSubmit={handleSubmit} className="text-white flex flex-col mt-2">
           {" "}
           <label>Name</label>
           <input
             type="text"
             name="name"
+            required
             className="rounded-md mb-2 text-black p-1"
           />
           <label>Email</label>
           <input
             type="email"
             name="email"
+            required
             className="rounded-lg mb-5 text-black p-1"
           />
           <label>Message</label>
           <textarea
             name="message"
+            required
             className="rounded-md h-24 text-black p-1 resize-none"
           />
           <input

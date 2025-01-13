@@ -74,12 +74,13 @@ function Navigation({ navColor }: navigation) {
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
             <Link to="/contact">Contact</Link>
           </li>
+
           <li className="hover:text-[#ED2330] transition-all duration-300 md:my-0 my-1">
             <DropdownMenu>
               <DropdownMenuTrigger className="border-none px-0 mx-0 overflow-hidden">
                 Departments
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="bg-white text-black border-none relative top-14 md:top-5">
+              <DropdownMenuContent className="bg-white w-72 text-black border-none relative top-20 md:top-5">
                 <Link to="/departments">
                   <DropdownMenuItem className="text-center">
                     Departments
